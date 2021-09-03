@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "R5CR71V3QWD",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "R5CR71V3QWD",
+        "name": "com.DefaultCompany.Chickenchase",
+        "processId": 14310,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -78,6 +78,12 @@
             "deviceId": "R5CR71V3QWD",
             "name": "com.DefaultCompany.Chickenchase",
             "processId": 4083,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR71V3QWD",
+            "name": "com.DefaultCompany.Chickenchase",
+            "processId": 14310,
             "exited": false
         }
     ],
