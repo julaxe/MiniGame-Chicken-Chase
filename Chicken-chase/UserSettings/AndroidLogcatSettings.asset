@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CR71V3QWD",
         "name": "com.DefaultCompany.Chickenchase",
-        "processId": 24167,
+        "processId": 22297,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,6 +60,12 @@
             "deviceId": "R5CR71V3QWD",
             "name": "com.DefaultCompany.Chickenchase",
             "processId": 24167,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR71V3QWD",
+            "name": "com.DefaultCompany.Chickenchase",
+            "processId": 22297,
             "exited": false
         }
     ],
