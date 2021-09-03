@@ -48,6 +48,7 @@ public class ObstaclesManager : MonoBehaviour
         }
         listObstacles.Add(temp);
         CalculateNextObstacle();
+        CheckBoundaries();
     }
     void CalculateNextObstacle()
     {
@@ -63,6 +64,18 @@ public class ObstaclesManager : MonoBehaviour
         else
         {
             cd = 3;
+        }
+    }
+    void CheckBoundaries()
+    {
+        float minY = -100.0f;
+        if (listObstacles.Count > 0)
+        {
+            if (listObstacles[0].transform.position.y < minY)
+            {
+                Destroy(listObstacles[0]);
+                listObstacles.RemoveAt(0);
+            }
         }
     }
 }
