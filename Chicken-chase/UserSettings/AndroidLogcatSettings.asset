@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "R5CR71V3QWD",
     "m_SelectedPackage": {
         "deviceId": "R5CR71V3QWD",
-        "name": "com.DefaultCompany.Chickenchase",
-        "processId": 14310,
+        "name": "com.Julaxe.Chickenchase",
+        "processId": 29725,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -84,6 +84,18 @@
             "deviceId": "R5CR71V3QWD",
             "name": "com.DefaultCompany.Chickenchase",
             "processId": 14310,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR71V3QWD",
+            "name": "com.Julaxe.Chickenchase",
+            "processId": 29725,
+            "exited": false
+        },
+        {
+            "deviceId": "emulator-5554",
+            "name": "com.Julaxe.Chickenchase",
+            "processId": 4599,
             "exited": false
         }
     ],

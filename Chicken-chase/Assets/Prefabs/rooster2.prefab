@@ -289,6 +289,7 @@ GameObject:
   - component: {fileID: 357113954542401609}
   - component: {fileID: -7213005079457615542}
   - component: {fileID: 7902655239825775429}
+  - component: {fileID: -4656138161997850796}
   m_Layer: 0
   m_Name: rooster2
   m_TagString: Untagged
@@ -425,6 +426,34 @@ CapsuleCollider:
   m_Height: 8
   m_Direction: 1
   m_Center: {x: 0, y: 3.54, z: -0.54}
+--- !u!114 &-4656138161997850796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814825473939765862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d5656f9855f3d42ae843d9f71697c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positions:
+  - {x: 17.409023, y: 85.11, z: -118.03755}
+  - {x: 15.09, y: 84.91, z: -119.79}
+  - {x: 11.361065, y: 84.18, z: -121.734604}
+  - {x: 8.671449, y: 83.87, z: -121.927216}
+  - {x: 5.499329, y: 83.27, z: -121.85396}
+  - {x: 2.791923, y: 83.06, z: -121.99707}
+  - {x: 0.063307464, y: 82.56, z: -122.064095}
+  rotations:
+  - {x: 0, y: 70.00047, z: 0}
+  - {x: 0, y: 70.00047, z: 0}
+  - {x: 0, y: 64.997894, z: 0}
+  - {x: 0, y: 85.375854, z: 0}
+  - {x: 0, y: 86.39655, z: 0}
+  - {x: 0, y: 92.702286, z: 0}
+  - {x: 0, y: 99.231186, z: 0}
 --- !u!1 &2280550272721379512
 GameObject:
   m_ObjectHideFlags: 0
