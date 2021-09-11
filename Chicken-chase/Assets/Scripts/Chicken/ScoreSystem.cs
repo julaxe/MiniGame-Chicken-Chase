@@ -4,22 +4,13 @@ using UnityEngine;
 
 public class ScoreSystem : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public static int GameScore = 0;
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Score")
         {
-            Debug.Log("Score");
+            GameScore++;
+            Debug.Log(GameScore);
         }
     }
 }
