@@ -5,15 +5,18 @@ using TMPro;
 
 public class ScoreUI : MonoBehaviour
 {
-    private TextMeshPro tmpPro;
+    private TextMeshProUGUI tmpPro;
     void Start()
     {
-        tmpPro = GetComponent<TextMeshPro>();
+        tmpPro = GetComponent<TextMeshProUGUI>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        tmpPro.text = ScoreSystem.GameScore.ToString();
+        if(tmpPro)
+        {
+            tmpPro.text = ScoreSystem.GameScore.ToString();
+        }
     }
 }

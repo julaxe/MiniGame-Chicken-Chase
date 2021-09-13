@@ -48,6 +48,10 @@ public class RoosterPositions : MonoBehaviour
 
                 //can't collide for a few seconds and get hit animation
                 SetGotHit(true);
+
+                //disable score collision box for that obstacle and collision in general.
+                other.gameObject.transform.Find("CollisionBox").GetComponent<BoxCollider>().enabled = false;
+                other.GetComponent<BoxCollider>().enabled = false;
             }
             else
             {

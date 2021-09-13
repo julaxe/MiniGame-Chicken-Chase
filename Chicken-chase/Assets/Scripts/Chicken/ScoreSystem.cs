@@ -9,8 +9,8 @@ public class ScoreSystem : MonoBehaviour
     {
         if(other.tag == "Score")
         {
-            GameScore++;
-            Debug.Log(GameScore);
+            ScoreSystem.GameScore++;
+            Debug.Log(ScoreSystem.GameScore);
         }
     }
 }
