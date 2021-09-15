@@ -15,11 +15,11 @@ C:/Users/Julaxe/Documents/dev/MiniGames/MiniGame-Chicken-Chase/Chicken-chase
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56528
+50255
 Successfully changed project path to: C:/Users/Julaxe/Documents/dev/MiniGames/MiniGame-Chicken-Chase/Chicken-chase
 C:/Users/Julaxe/Documents/dev/MiniGames/MiniGame-Chicken-Chase/Chicken-chase
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 102.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,84 +35,255 @@ Initialize mono
 Mono path[0] = 'C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001737 seconds.
+Registered in 0.001723 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 102.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.129 seconds
+- Completed reload, in  2.020 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006156 seconds.
+Registered in 0.005202 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 102.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.370 seconds
+- Completed reload, in  1.273 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.1 MB.
-System memory in use after: 143.3 MB.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.2 MB.
+System memory in use after: 143.4 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3979.
-Total: 3.582800 ms (FindLiveObjects: 0.719000 ms CreateObjectMapping: 0.124400 ms MarkObjects: 2.697100 ms  DeleteObjects: 0.040600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Chicken/ScoreSystem.cs
-  artifactKey: Guid(638414c253874e140ae2857bb758e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Chicken/ScoreSystem.cs using Guid(638414c253874e140ae2857bb758e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb36bdb4b46d9fa4a4eb892fb91cebb') in 0.036743 seconds
-  Import took 0.043689 seconds .
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3980.
+Total: 3.005700 ms (FindLiveObjects: 0.617000 ms CreateObjectMapping: 0.099300 ms MarkObjects: 2.262100 ms  DeleteObjects: 0.026200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.706732 seconds.
-  path: Assets/Scripts/Chicken/ScoreSystem.cs
-  artifactKey: Guid(638414c253874e140ae2857bb758e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Chicken/ScoreSystem.cs using Guid(638414c253874e140ae2857bb758e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2536b60d50e1330063d765a55758a9') in 0.003773 seconds
-  Import took 0.010917 seconds .
+  path: Assets/Scripts/SoundManager.cs
+  artifactKey: Guid(1706b4cec83cc9e45aa75dd3fa4e5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundManager.cs using Guid(1706b4cec83cc9e45aa75dd3fa4e5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55800afdb3768f32eed44b681e04d4c2') in 0.039218 seconds
+  Import took 0.045520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.436519 seconds.
+  path: Assets/Scripts/SoundManager.cs
+  artifactKey: Guid(1706b4cec83cc9e45aa75dd3fa4e5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundManager.cs using Guid(1706b4cec83cc9e45aa75dd3fa4e5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ceeeb54ecfb1cbb802d7762f6921f5') in 0.003383 seconds
+  Import took 0.009635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.241058 seconds.
+  path: Assets/Scripts/SoundManager.cs
+  artifactKey: Guid(1706b4cec83cc9e45aa75dd3fa4e5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundManager.cs using Guid(1706b4cec83cc9e45aa75dd3fa4e5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175cb7f427ab35fd4f5754e259b7066c') in 0.003677 seconds
+  Import took 0.009612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.624526 seconds.
+  path: Assets/Scripts/SoundManager.cs
+  artifactKey: Guid(1706b4cec83cc9e45aa75dd3fa4e5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundManager.cs using Guid(1706b4cec83cc9e45aa75dd3fa4e5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25a76992db35de37a685c6c46ae1f94') in 0.003886 seconds
+  Import took 0.009916 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007445 seconds.
+Registered in 0.005274 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.073 seconds
+- Completed reload, in  1.043 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
+Unloading 3518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.7 MB.
 System memory in use after: 141.9 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3982.
-Total: 3.920400 ms (FindLiveObjects: 0.664800 ms CreateObjectMapping: 0.159800 ms MarkObjects: 3.072100 ms  DeleteObjects: 0.022700 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3983.
+Total: 2.892900 ms (FindLiveObjects: 0.605600 ms CreateObjectMapping: 0.094200 ms MarkObjects: 2.169700 ms  DeleteObjects: 0.022200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005142 seconds.
+Registered in 0.005135 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.7 MB.
+System memory in use after: 142.0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3986.
+Total: 3.258200 ms (FindLiveObjects: 0.720200 ms CreateObjectMapping: 0.125200 ms MarkObjects: 2.381200 ms  DeleteObjects: 0.030300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 155.344614 seconds.
+  path: Assets/Sounds/GameOverSound.mp3
+  artifactKey: Guid(43fcd6df8f171524785d4166ef13c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/GameOverSound.mp3 using Guid(43fcd6df8f171524785d4166ef13c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8eb0880300a296cc46593394d286ef1') in 0.100125 seconds
+  Import took 0.106605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.607427 seconds.
+  path: Assets/Sounds/IntroMusic.mp3
+  artifactKey: Guid(2d200b4cf6348264cb906a3e25a989a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/IntroMusic.mp3 using Guid(2d200b4cf6348264cb906a3e25a989a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686b8ea1155301d233810b63a4379357') in 0.012799 seconds
+  Import took 0.018708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.896127 seconds.
+  path: Assets/Sounds/ChickenClucking.wav
+  artifactKey: Guid(de16a1f3c9294f248a8d04ae24614365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/ChickenClucking.wav using Guid(de16a1f3c9294f248a8d04ae24614365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3543b85708b2b9d432de56ba7552e982') in 0.017044 seconds
+  Import took 0.023082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.560475 seconds.
+  path: Assets/Sounds/BackgroundMusic.mp3
+  artifactKey: Guid(1745af243569e9f49a5120b2b38a1d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BackgroundMusic.mp3 using Guid(1745af243569e9f49a5120b2b38a1d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb52c660d1b4421d5dcfa7af7e22d913') in 0.012410 seconds
+  Import took 0.018211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.322953 seconds.
+  path: Assets/Sounds/RoosterWingFlapping.wav
+  artifactKey: Guid(2e10d696fb345054b86a891ec871de8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RoosterWingFlapping.wav using Guid(2e10d696fb345054b86a891ec871de8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a31916626b16ae584ae7ddb85b06bec') in 0.010691 seconds
+  Import took 0.016534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.736754 seconds.
+  path: Assets/Sounds/RoosterChook.wav
+  artifactKey: Guid(c3626c2b014bd864db9af9df4ba97647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RoosterChook.wav using Guid(c3626c2b014bd864db9af9df4ba97647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41666d79e29dd6aa0c015fb85ab59ff0') in 0.010802 seconds
+  Import took 0.016757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.657762 seconds.
+  path: Assets/Sounds/RoosterClucks.wav
+  artifactKey: Guid(4c9c40c2425bb4e42bf7470af6b62cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RoosterClucks.wav using Guid(4c9c40c2425bb4e42bf7470af6b62cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977c037b22d35da4d8a3f6e222d58997') in 0.010594 seconds
+  Import took 0.016470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.893100 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(ce69db06895a6fa4186b762699ab370c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(ce69db06895a6fa4186b762699ab370c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795ae123fbea42c6536f3eb6ed5c87ff') in 0.006087 seconds
+  Import took 0.020244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.854102 seconds.
+  path: Assets/Resources/Sounds
+  artifactKey: Guid(546e23985f32fe84c9723c0aed35ef1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds using Guid(546e23985f32fe84c9723c0aed35ef1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0221d3c1a1d7e645f0511ec6297b7949') in 0.006608 seconds
+  Import took 0.013057 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005119 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.7 MB.
+System memory in use after: 144.9 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3998.
+Total: 2.941100 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.098500 ms MarkObjects: 2.391700 ms  DeleteObjects: 0.032600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005064 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.8 MB.
+System memory in use after: 145.0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4001.
+Total: 3.243700 ms (FindLiveObjects: 0.627400 ms CreateObjectMapping: 0.125000 ms MarkObjects: 2.463900 ms  DeleteObjects: 0.026100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1474.108536 seconds.
+  path: Assets/Scripts/UI/ButtonFunctions.cs
+  artifactKey: Guid(98edb501f4b6f624db77a92dcd14687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/ButtonFunctions.cs using Guid(98edb501f4b6f624db77a92dcd14687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc383da5108fe723341cf0bae185140c') in 0.012865 seconds
+  Import took 0.019951 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006303 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -120,57 +291,82 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
+- Completed reload, in  1.101 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.7 MB.
-System memory in use after: 141.9 MB.
+Unloading 3519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.8 MB.
+System memory in use after: 145.1 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3985.
-Total: 3.879500 ms (FindLiveObjects: 0.675700 ms CreateObjectMapping: 0.112400 ms MarkObjects: 3.057900 ms  DeleteObjects: 0.032000 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4005.
+Total: 3.332000 ms (FindLiveObjects: 0.627200 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.581100 ms  DeleteObjects: 0.033800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005195 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.8 MB.
+System memory in use after: 145.1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4008.
+Total: 2.887500 ms (FindLiveObjects: 0.669300 ms CreateObjectMapping: 0.087200 ms MarkObjects: 2.109200 ms  DeleteObjects: 0.019900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 26.557142 seconds.
-  path: Assets/Scripts/Chicken/ScoreSystem.cs
-  artifactKey: Guid(638414c253874e140ae2857bb758e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Chicken/ScoreSystem.cs using Guid(638414c253874e140ae2857bb758e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d3c261384e423eb3fa598137899322') in 0.009517 seconds
-  Import took 0.016833 seconds .
+  Time since last request: 218.670689 seconds.
+  path: Assets/Scripts/UI/ButtonFunctions.cs
+  artifactKey: Guid(98edb501f4b6f624db77a92dcd14687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/ButtonFunctions.cs using Guid(98edb501f4b6f624db77a92dcd14687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5c76a219d998421fe3cb1c9c7eafeb') in 0.007639 seconds
+  Import took 0.013578 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005031 seconds.
+Registered in 0.005379 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  1.025 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.7 MB.
-System memory in use after: 142.0 MB.
+Unloading 3519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.9 MB.
+System memory in use after: 145.1 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3988.
-Total: 2.857200 ms (FindLiveObjects: 0.614800 ms CreateObjectMapping: 0.086700 ms MarkObjects: 2.134300 ms  DeleteObjects: 0.020400 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4011.
+Total: 2.866400 ms (FindLiveObjects: 0.383800 ms CreateObjectMapping: 0.105600 ms MarkObjects: 2.345200 ms  DeleteObjects: 0.030700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005114 seconds.
+Registered in 0.005669 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -178,570 +374,17 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.082 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.7 MB.
-System memory in use after: 142.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3991.
-Total: 3.221300 ms (FindLiveObjects: 0.532100 ms CreateObjectMapping: 0.092400 ms MarkObjects: 2.563600 ms  DeleteObjects: 0.031000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005175 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.8 MB.
-System memory in use after: 142.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3994.
-Total: 4.078100 ms (FindLiveObjects: 0.899900 ms CreateObjectMapping: 0.333800 ms MarkObjects: 2.814200 ms  DeleteObjects: 0.028700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004902 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.056 seconds
+- Completed reload, in  1.041 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.8 MB.
-System memory in use after: 142.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3997.
-Total: 3.841700 ms (FindLiveObjects: 0.519400 ms CreateObjectMapping: 0.135700 ms MarkObjects: 3.155500 ms  DeleteObjects: 0.030300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005219 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.107 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.8 MB.
-System memory in use after: 142.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4000.
-Total: 4.159000 ms (FindLiveObjects: 1.016300 ms CreateObjectMapping: 0.201400 ms MarkObjects: 2.904100 ms  DeleteObjects: 0.035700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005748 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.099 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.8 MB.
-System memory in use after: 142.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4003.
-Total: 3.733400 ms (FindLiveObjects: 0.751600 ms CreateObjectMapping: 0.118300 ms MarkObjects: 2.831500 ms  DeleteObjects: 0.030100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005708 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.090 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.8 MB.
-System memory in use after: 142.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4006.
-Total: 3.302100 ms (FindLiveObjects: 0.607900 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.556200 ms  DeleteObjects: 0.032500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 900.977562 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304a715c3fc0a0b42252aba073935f14') in 0.108456 seconds
-  Import took 0.115251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.773484 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1595be98afc3ce920c0e9561f1d67fa2') in 0.022248 seconds
-  Import took 0.029202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.430282 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64041206a03f980f363b65a768e9bed1') in 0.022034 seconds
-  Import took 0.029222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.382797 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc9586e1aadb3021f62c0e7497f4a9f') in 0.023819 seconds
-  Import took 0.031181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.982743 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661656203e76f87676787ff9de5d65ac') in 0.021756 seconds
-  Import took 0.030610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.413923 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a46960475d232d10d04556cac50c4a3') in 0.020798 seconds
-  Import took 0.028454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.218605 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b67a04f2d78412750d5c0668dcc07c') in 0.020894 seconds
-  Import took 0.027967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.228752 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff13af7f27f6949afa51e23b6af31ed7') in 0.020416 seconds
-  Import took 0.026782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.619327 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17258aabc633928906bcac021cd5ed80') in 0.020242 seconds
-  Import took 0.027139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.240192 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555eb021d30052f59bc7504e94089c60') in 0.020777 seconds
-  Import took 0.027824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.594651 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20955e20e8af2ee0dad6961f40d67e08') in 0.079388 seconds
-  Import took 0.085995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.313825 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2bcb4bc4038d7835dccd962851e55f') in 0.010860 seconds
-  Import took 0.017242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.244380 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b4ae49817f0aa07ea357316eff2b5e') in 0.009602 seconds
-  Import took 0.018151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.961937 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88787123d8345d06489df95e68fed6b0') in 0.009365 seconds
-  Import took 0.016706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.458408 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535640be2c832c90b3c136a9db9ac75a') in 0.008979 seconds
-  Import took 0.015419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.273317 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bba0c7dbd72d9f2d8759044f665923') in 0.009970 seconds
-  Import took 0.016364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.812773 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacc5e28cd3bb336ed2ee928aecee896') in 0.009284 seconds
-  Import took 0.016285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.619414 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4936da4a4ac9e2f5ea77ea20e359f7c') in 0.010358 seconds
-  Import took 0.016853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.612340 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3239508266dc91a624427f2ffdf01bb3') in 0.008300 seconds
-  Import took 0.015567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.130638 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487bef251007a8a5f9ff9e8a1d96f474') in 0.009130 seconds
-  Import took 0.016401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.061287 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8852781a987d2e5e87ca6e0cb563c0a') in 0.009782 seconds
-  Import took 0.016319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.491287 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9fed22834debe7f67b03fc53913813') in 0.008476 seconds
-  Import took 0.015047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.077098 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad892be003ff934c587d1d352501c46') in 0.009475 seconds
-  Import took 0.016164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.282178 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b721784e09222dc3db471a57cd4a8ea') in 0.012172 seconds
-  Import took 0.018820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.708453 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992bae7c6f889dea68c2317132b4c944') in 0.008254 seconds
-  Import took 0.015289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.837431 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021cd654a9f6b451c8531ab3bcc77a53') in 0.008464 seconds
-  Import took 0.015504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.437535 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2bd2f688d7b0656094a72f32e42c7e') in 0.008768 seconds
-  Import took 0.015521 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004957 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3519 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 144.9 MB.
 System memory in use after: 145.1 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4016.
-Total: 3.932600 ms (FindLiveObjects: 1.357600 ms CreateObjectMapping: 0.242000 ms MarkObjects: 2.304700 ms  DeleteObjects: 0.025400 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4014.
+Total: 2.759000 ms (FindLiveObjects: 0.400900 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.242100 ms  DeleteObjects: 0.029900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004794 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.105 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.9 MB.
-System memory in use after: 145.1 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4019.
-Total: 3.366000 ms (FindLiveObjects: 0.676400 ms CreateObjectMapping: 0.088800 ms MarkObjects: 2.569600 ms  DeleteObjects: 0.030100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 145.937586 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdbfa91eaec51558842c262e5d7c202') in 0.058775 seconds
-  Import took 0.066249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.085943 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58feb7bff6c60012d4b607b1fe59bbf') in 0.009635 seconds
-  Import took 0.016185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.905004 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edad1bee1462b64557e5c2c96e8da2a') in 0.009817 seconds
-  Import took 0.016324 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004929 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.9 MB.
-System memory in use after: 145.2 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4023.
-Total: 3.090800 ms (FindLiveObjects: 0.433800 ms CreateObjectMapping: 0.093900 ms MarkObjects: 2.527100 ms  DeleteObjects: 0.033800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 282.477838 seconds.
-  path: Assets/Prefabs/fence.prefab
-  artifactKey: Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/fence.prefab using Guid(524508882fb482e4b991752da36ef97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce8161809d23a474fd74b1b94a290cf') in 0.056974 seconds
-  Import took 0.063436 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006723 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.225 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.9 MB.
-System memory in use after: 145.2 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4027.
-Total: 3.318600 ms (FindLiveObjects: 0.653600 ms CreateObjectMapping: 0.089300 ms MarkObjects: 2.545200 ms  DeleteObjects: 0.028500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 6031.962883 seconds.
-  path: Assets/Sound
-  artifactKey: Guid(ce69db06895a6fa4186b762699ab370c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound using Guid(ce69db06895a6fa4186b762699ab370c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef9b2dc55fe5d57b9dd754bb82c5e5e') in 0.083913 seconds
-  Import took 0.191338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.572774 seconds.
-  path: Assets/Sounds
-  artifactKey: Guid(ce69db06895a6fa4186b762699ab370c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds using Guid(ce69db06895a6fa4186b762699ab370c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5096e4a900b2894b1012d3e5e627da') in 0.006231 seconds
-  Import took 0.012571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3074.227753 seconds.
-  path: Assets/Sounds/15_Second-2020-08-13_-_Sleuthing_In_The_Dark_-_www.FesliyanStudios.com_Steve_Oxen.mp3
-  artifactKey: Guid(43fcd6df8f171524785d4166ef13c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/15_Second-2020-08-13_-_Sleuthing_In_The_Dark_-_www.FesliyanStudios.com_Steve_Oxen.mp3 using Guid(43fcd6df8f171524785d4166ef13c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402a6b9ab812b1aa5756fe4c5ff17d62') in 0.209043 seconds
-  Import took 0.215781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Sounds/Rooster-Chicken-Wing-Flapping-1.wav
-  artifactKey: Guid(2e10d696fb345054b86a891ec871de8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Rooster-Chicken-Wing-Flapping-1.wav using Guid(2e10d696fb345054b86a891ec871de8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfcfc69e219ad33490e85eaec98ca69') in 0.017766 seconds
-  Import took 0.023504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Sounds/Rooster-Clucks-2.wav
-  artifactKey: Guid(4c9c40c2425bb4e42bf7470af6b62cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Rooster-Clucks-2.wav using Guid(4c9c40c2425bb4e42bf7470af6b62cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c49aa935537579ce28832a68092e9a') in 0.014769 seconds
-  Import took 0.020260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Sounds/PetterTheSturgeon - Anything_1.waw_.mp3
-  artifactKey: Guid(1745af243569e9f49a5120b2b38a1d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/PetterTheSturgeon - Anything_1.waw_.mp3 using Guid(1745af243569e9f49a5120b2b38a1d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e16b18f3b685455165e68c9bfd8da0') in 0.014769 seconds
-  Import took 0.020869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sounds/Rooster_Chook_1.wav
-  artifactKey: Guid(c3626c2b014bd864db9af9df4ba97647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Rooster_Chook_1.wav using Guid(c3626c2b014bd864db9af9df4ba97647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86e181a7f5d4f27ae86ba1d7b78c241') in 0.011401 seconds
-  Import took 0.016918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Sounds/Chicken-Clucking-Short-1.wav
-  artifactKey: Guid(de16a1f3c9294f248a8d04ae24614365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Chicken-Clucking-Short-1.wav using Guid(de16a1f3c9294f248a8d04ae24614365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5719873b127133bf2eaf99b26e039a6') in 0.018289 seconds
-  Import took 0.024518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Sounds/15sec-2021-06-15_-_Happy_Feet_-_www.FesliyanStudios.com.mp3
-  artifactKey: Guid(2d200b4cf6348264cb906a3e25a989a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/15sec-2021-06-15_-_Happy_Feet_-_www.FesliyanStudios.com.mp3 using Guid(2d200b4cf6348264cb906a3e25a989a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccef8358934fa82aeee468d627f6501') in 0.012436 seconds
-  Import took 0.018157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.575837 seconds.
-  path: Assets/Sounds/NewAudioMixer.mixer
-  artifactKey: Guid(fb2375731b5e4b14e84134dfe43b1fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/NewAudioMixer.mixer using Guid(fb2375731b5e4b14e84134dfe43b1fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b45afa79fd123688bcb9d80e6a9ec66') in 0.009111 seconds
-  Import took 0.015399 seconds .
-

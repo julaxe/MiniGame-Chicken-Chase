@@ -37,6 +37,7 @@ public class RoosterRunning : MonoBehaviour
         if (jumpPress && !animator.GetBool("Jump"))
         {
             animator.SetBool("Jump", true);
+            SoundManager.Instance.PlaySFX("jump");
         }
         else if (!jumpPress && animator.GetBool("Jump"))
         {
@@ -46,6 +47,7 @@ public class RoosterRunning : MonoBehaviour
         if (duckPress && !animator.GetBool("Duck"))
         {
             animator.SetBool("Duck", true);
+            SoundManager.Instance.PlaySFX("duck");
         }
         else if (!duckPress && animator.GetBool("Duck"))
         {

@@ -15,11 +15,11 @@ C:/Users/Julaxe/Documents/dev/MiniGames/MiniGame-Chicken-Chase/Chicken-chase
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61246
+54433
 Successfully changed project path to: C:/Users/Julaxe/Documents/dev/MiniGames/MiniGame-Chicken-Chase/Chicken-chase
 C:/Users/Julaxe/Documents/dev/MiniGames/MiniGame-Chicken-Chase/Chicken-chase
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 98.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,399 +35,927 @@ Initialize mono
 Mono path[0] = 'C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001595 seconds.
+Registered in 0.001669 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.851 seconds
+- Completed reload, in  1.872 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005417 seconds.
+Registered in 0.005267 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 92.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.181 seconds
+- Completed reload, in  1.233 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.1 MB.
-System memory in use after: 143.3 MB.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.2 MB.
+System memory in use after: 143.4 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3978.
-Total: 2.817800 ms (FindLiveObjects: 0.435500 ms CreateObjectMapping: 0.084100 ms MarkObjects: 2.262700 ms  DeleteObjects: 0.034700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6a1853b736837ecfb0820a881449cb') in 0.010949 seconds
-  Import took 0.018992 seconds .
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3979.
+Total: 3.265600 ms (FindLiveObjects: 0.599700 ms CreateObjectMapping: 0.097000 ms MarkObjects: 2.533500 ms  DeleteObjects: 0.034100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.007631 seconds.
-  path: Assets/Fonts
-  artifactKey: Guid(4ea3ebdf44b13514aaeb26f774a4ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts using Guid(4ea3ebdf44b13514aaeb26f774a4ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae42d0a44f95902d49137f3ae1306dca') in 0.006690 seconds
-  Import took 0.012924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Fonts
-  artifactKey: Guid(4ea3ebdf44b13514aaeb26f774a4ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts using Guid(4ea3ebdf44b13514aaeb26f774a4ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae42d0a44f95902d49137f3ae1306dca') in 0.002192 seconds
-  Import took 0.006319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.487020 seconds.
-  path: Assets/Fonts/Plaguard-ZVnjx.otf
-  artifactKey: Guid(6e382266fcee8ea4b905255dc377cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Plaguard-ZVnjx.otf using Guid(6e382266fcee8ea4b905255dc377cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8296b2d937b9a4b213e2daabc14348b8') in 0.104621 seconds
-  Import took 0.111488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.317282 seconds.
-  path: Assets/Fonts/Plaguard-ZVnjx SDF.asset
-  artifactKey: Guid(21fe56906662054478118082a8d3014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Plaguard-ZVnjx SDF.asset using Guid(21fe56906662054478118082a8d3014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c7018ccd8ae5b17ff96618fd051644') in 0.084973 seconds
-  Import took 0.091836 seconds .
+  path: Assets/Scenes/Menu Scene.unity
+  artifactKey: Guid(9b94e7c873d457040b4141b584f8d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu Scene.unity using Guid(9b94e7c873d457040b4141b584f8d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f44dd92f04656e06fe499b4a5ead92e') in 0.021328 seconds
+  Import took 0.027749 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005077 seconds.
+Registered in 0.005006 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  1.135 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3516 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.9 MB.
-System memory in use after: 145.1 MB.
+Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.6 MB.
+System memory in use after: 141.9 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4025.
-Total: 2.808200 ms (FindLiveObjects: 0.559600 ms CreateObjectMapping: 0.096100 ms MarkObjects: 2.127300 ms  DeleteObjects: 0.023300 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3982.
+Total: 3.299700 ms (FindLiveObjects: 0.686600 ms CreateObjectMapping: 0.364500 ms MarkObjects: 2.216100 ms  DeleteObjects: 0.029200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 2592.727221 seconds.
-  path: Assets/Scripts/Obstacles
-  artifactKey: Guid(acb73f10e86050e4aa5a47f91efd2340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Obstacles using Guid(acb73f10e86050e4aa5a47f91efd2340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1152f28e4b7c194478603f8c6ff7da0d') in 0.013066 seconds
-  Import took 0.019641 seconds .
+  Time since last request: 1056.473209 seconds.
+  path: Assets/UI
+  artifactKey: Guid(7ef48d33231360247994f065b3348e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI using Guid(7ef48d33231360247994f065b3348e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0e2c6151f6702d005874746b2539bf') in 0.014134 seconds
+  Import took 0.020823 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.463293 seconds.
-  path: Assets/Scripts/ObstaclesManager.cs
-  artifactKey: Guid(0f10400ebef163f4aa91648eabb10f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObstaclesManager.cs using Guid(0f10400ebef163f4aa91648eabb10f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10cf1f0177bc6c879c256e25adac907') in 0.008625 seconds
-  Import took 0.015302 seconds .
+  Time since last request: 343.569231 seconds.
+  path: Assets/UI/HyperCasual Game UI
+  artifactKey: Guid(49ecce65c490ce84fb9567e4d931b957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI using Guid(49ecce65c490ce84fb9567e4d931b957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4bdd105edc61eb28cff2cfd8cb3659') in 0.008214 seconds
+  Import took 0.016429 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.355135 seconds.
-  path: Assets/Scripts/ObstacleBehaviour.cs
-  artifactKey: Guid(b27e17f90cbf1bb408003c46889f1f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObstacleBehaviour.cs using Guid(b27e17f90cbf1bb408003c46889f1f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091e1e62dbc8200a01965359db28856c') in 0.007964 seconds
-  Import took 0.014066 seconds .
+  Time since last request: 0.010368 seconds.
+  path: Assets/UI/HyperCasual Game UI/arrow.png
+  artifactKey: Guid(424826bc3ccf4f146a33c07d4061aa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/arrow.png using Guid(424826bc3ccf4f146a33c07d4061aa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6405f44525447e0d62b38c73066ce6a9') in 0.063880 seconds
+  Import took 0.069844 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Scripts/ObstacleBehaviour.cs
-  artifactKey: Guid(b27e17f90cbf1bb408003c46889f1f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObstacleBehaviour.cs using Guid(b27e17f90cbf1bb408003c46889f1f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091e1e62dbc8200a01965359db28856c') in 0.003033 seconds
-  Import took 0.007571 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/UI/HyperCasual Game UI/circle.png
+  artifactKey: Guid(b0ed86fcb8204a541ae6a7e5b01e50bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/circle.png using Guid(b0ed86fcb8204a541ae6a7e5b01e50bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5ff9e693b070a572a6765d559b3ce2') in 0.012835 seconds
+  Import took 0.018136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/UI/HyperCasual Game UI/greenBtnInactive.png
+  artifactKey: Guid(34394deea60526b4aa74c908446ee26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/greenBtnInactive.png using Guid(34394deea60526b4aa74c908446ee26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d91620f2f242cdebffb79d9bc993079') in 0.013009 seconds
+  Import took 0.019076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/UI/HyperCasual Game UI/BG.png
+  artifactKey: Guid(f116fd531d833bf458b5444401248a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/BG.png using Guid(f116fd531d833bf458b5444401248a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491e8297d214d4ee89e390747248c70c') in 0.014612 seconds
+  Import took 0.020280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/UI/HyperCasual Game UI/cornerSquare2.png
+  artifactKey: Guid(69bf74ec26bdb6141ade500ffa9f290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/cornerSquare2.png using Guid(69bf74ec26bdb6141ade500ffa9f290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a86cb24b61cddeae89251ee45e4520') in 0.011844 seconds
+  Import took 0.017706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/UI/HyperCasual Game UI/greenBtnNormal.png
+  artifactKey: Guid(b6301debfb55de442837cbb1c4f83544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/greenBtnNormal.png using Guid(b6301debfb55de442837cbb1c4f83544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4311460550c29a10185401d0b8b946') in 0.013293 seconds
+  Import took 0.019272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/UI/HyperCasual Game UI/borderCircle.png
+  artifactKey: Guid(de2879550ce434543b8c452ea18fc656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/borderCircle.png using Guid(de2879550ce434543b8c452ea18fc656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f49cba35cd455ba164f3b46e547206') in 0.012283 seconds
+  Import took 0.018751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/UI/HyperCasual Game UI/giftIcon.png
+  artifactKey: Guid(90a4b627955ed75459131022bf8763e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/giftIcon.png using Guid(90a4b627955ed75459131022bf8763e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a654f6f8d85637396f61b2e35ffe136') in 0.011233 seconds
+  Import took 0.018211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/UI/HyperCasual Game UI/blueRectNormal.png
+  artifactKey: Guid(82e0b719a53f948499467f61e29c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/blueRectNormal.png using Guid(82e0b719a53f948499467f61e29c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc44c6c32d1b2390780aff4ba58d23a') in 0.012774 seconds
+  Import took 0.018764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/UI/HyperCasual Game UI/greyRectTapped.png
+  artifactKey: Guid(4d3d24cae51bafe448d7d6fc488ca24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/greyRectTapped.png using Guid(4d3d24cae51bafe448d7d6fc488ca24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9ad554b6343dd291f6e1a14b643613') in 0.010366 seconds
+  Import took 0.018004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/UI/HyperCasual Game UI/heartIcon.png
+  artifactKey: Guid(1721471e383e7de4ca4b2fcbe17e61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/heartIcon.png using Guid(1721471e383e7de4ca4b2fcbe17e61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4833b16ebd863c70430588916447efd') in 0.011310 seconds
+  Import took 0.017672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/UI/HyperCasual Game UI/hintIcon.png
+  artifactKey: Guid(2ef7a03d28a69d141a87816d00554b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/hintIcon.png using Guid(2ef7a03d28a69d141a87816d00554b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429cf6c748170a80fa9db85940822c58') in 0.014318 seconds
+  Import took 0.019653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/UI/HyperCasual Game UI/coinIcon.png
+  artifactKey: Guid(6d3ceb9441153ba468f9ced622371f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/coinIcon.png using Guid(6d3ceb9441153ba468f9ced622371f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d93af579ec80dda739368edf92a989') in 0.014278 seconds
+  Import took 0.020110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/UI/HyperCasual Game UI/blueRectInactive.png
+  artifactKey: Guid(bb552a2d58693674383a7e762a4408fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/blueRectInactive.png using Guid(bb552a2d58693674383a7e762a4408fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849eda3d0cbca49dbe082facd26fdc88') in 0.012127 seconds
+  Import took 0.017595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/UI/HyperCasual Game UI/greenRectNormal.png
+  artifactKey: Guid(a4a82f787bbd765468a2857a1900bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/greenRectNormal.png using Guid(a4a82f787bbd765468a2857a1900bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5181d82adb5e48ce329218706a0b3602') in 0.013914 seconds
+  Import took 0.020950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/UI/HyperCasual Game UI/closeBtn.png
+  artifactKey: Guid(391a9cf8e3bc8af41812867d634b0b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/closeBtn.png using Guid(391a9cf8e3bc8af41812867d634b0b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbadfc1c4a98b7413de07d135c0156e') in 0.010989 seconds
+  Import took 0.017858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/UI/HyperCasual Game UI/likeBtn.png
+  artifactKey: Guid(668e1b277b9eb1e408639f20c937f7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/likeBtn.png using Guid(668e1b277b9eb1e408639f20c937f7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb2b1599b3345e597df22fd192edd60') in 0.011912 seconds
+  Import took 0.017636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/UI/HyperCasual Game UI/greenBtnTapped.png
+  artifactKey: Guid(dad418e6be1ed9c429fa72e15edab055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/greenBtnTapped.png using Guid(dad418e6be1ed9c429fa72e15edab055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e238f77a2acbaac571c7178f13b1b310') in 0.012620 seconds
+  Import took 0.019100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/UI/HyperCasual Game UI/homeBtn.png
+  artifactKey: Guid(3f9a5a60bb7c82d44bf816ea82de7cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/homeBtn.png using Guid(3f9a5a60bb7c82d44bf816ea82de7cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf7ff595b5a76ab4708a2d3b1f83e81') in 0.013765 seconds
+  Import took 0.019896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/UI/HyperCasual Game UI/blueBtnNormal.png
+  artifactKey: Guid(cc6691212819cc34793e79bf2d7a9e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/blueBtnNormal.png using Guid(cc6691212819cc34793e79bf2d7a9e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6475645ddad4b9e99c42da4d3a7fe54e') in 0.011952 seconds
+  Import took 0.018776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/UI/HyperCasual Game UI/backBtn.png
+  artifactKey: Guid(20ef124adba058842a76855967a3eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/backBtn.png using Guid(20ef124adba058842a76855967a3eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57cc669f9f4c211cb48709528411406') in 0.011887 seconds
+  Import took 0.019558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/UI/HyperCasual Game UI/blueBG.png
+  artifactKey: Guid(aedf319d181ea104bb722b8a333781d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/blueBG.png using Guid(aedf319d181ea104bb722b8a333781d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1267d0fae272f0e029b9e25a665d97') in 0.011519 seconds
+  Import took 0.017167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/UI/HyperCasual Game UI/blueRectTapped.png
+  artifactKey: Guid(0402184125809bf449b1bffab5a9bd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/blueRectTapped.png using Guid(0402184125809bf449b1bffab5a9bd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd3a31aeb142ac1a97af0189659fe7e') in 0.009668 seconds
+  Import took 0.015325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/UI/HyperCasual Game UI/cornerSquare.png
+  artifactKey: Guid(10cc49398bcc6054684389967472ef09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/cornerSquare.png using Guid(10cc49398bcc6054684389967472ef09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9164c2101867a6db52adf97368af06f') in 0.012818 seconds
+  Import took 0.019187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/UI/HyperCasual Game UI/greyRectNormal.png
+  artifactKey: Guid(fbb53eab09c6b2641999e6c3aa0cf7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/greyRectNormal.png using Guid(fbb53eab09c6b2641999e6c3aa0cf7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa190ffd0580e47574fead2f74e34e7a') in 0.010014 seconds
+  Import took 0.015607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/UI/HyperCasual Game UI/greenRectTapped.png
+  artifactKey: Guid(2c908eee7deb7954ea491b0b44258609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/greenRectTapped.png using Guid(2c908eee7deb7954ea491b0b44258609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0474d2272b2a159c0831c12f95427b50') in 0.009959 seconds
+  Import took 0.016964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/UI/HyperCasual Game UI/blueBtnTapped.png
+  artifactKey: Guid(9e2825695938a3a478d59a53775aa303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/blueBtnTapped.png using Guid(9e2825695938a3a478d59a53775aa303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c880d98588f35f73ac7dc102c6233293') in 0.010738 seconds
+  Import took 0.016978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/UI/HyperCasual Game UI/hand.png
+  artifactKey: Guid(e92dbce6eb023474dbf9b24be1dd2ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/hand.png using Guid(e92dbce6eb023474dbf9b24be1dd2ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea152c040f461e9ff4d4ff7cbb10782') in 0.011250 seconds
+  Import took 0.018387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.691172 seconds.
+  path: Assets/UI/HyperCasual Game UI/lockIcon.png
+  artifactKey: Guid(d9c3e8da2dc09ed47ac3ca0f6b867f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/lockIcon.png using Guid(d9c3e8da2dc09ed47ac3ca0f6b867f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2e590eb4702c818a4dd20757c4c6af') in 0.013881 seconds
+  Import took 0.022163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/UI/HyperCasual Game UI/nextBtn.png
+  artifactKey: Guid(9adb1e24ac3d29546a7a9b6c36cb6923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/nextBtn.png using Guid(9adb1e24ac3d29546a7a9b6c36cb6923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282c31e9ae125f4698d94af51e47caf9') in 0.011426 seconds
+  Import took 0.018113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/UI/HyperCasual Game UI/noAdsBtn.png
+  artifactKey: Guid(4bb53da45be474d49b430d4eb754f85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/noAdsBtn.png using Guid(4bb53da45be474d49b430d4eb754f85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab596f608195d0342a5f69f26841766e') in 0.013132 seconds
+  Import took 0.018951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/UI/HyperCasual Game UI/musicBtn.png
+  artifactKey: Guid(f4bb15168c076a84592385b5e89f8c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/musicBtn.png using Guid(f4bb15168c076a84592385b5e89f8c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb85562a1b577af82c8efcd1b87326d3') in 0.011137 seconds
+  Import took 0.016819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157751 seconds.
+  path: Assets/UI/HyperCasual Game UI/pauseBtn.png
+  artifactKey: Guid(7078cdd9bf95c6f469686b11529206cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/pauseBtn.png using Guid(7078cdd9bf95c6f469686b11529206cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99d3cdd1c83d6ba171a137d55605000') in 0.009933 seconds
+  Import took 0.015845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/UI/HyperCasual Game UI/pinkBtnTapped.png
+  artifactKey: Guid(5489e779f5a60da43ba0796e4ebb7a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/pinkBtnTapped.png using Guid(5489e779f5a60da43ba0796e4ebb7a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44db8645c281080af718f968fb1f075f') in 0.010879 seconds
+  Import took 0.016334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/UI/HyperCasual Game UI/pinkBtnInactive.png
+  artifactKey: Guid(5881fcc1ae33d52439be93982d5be133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/pinkBtnInactive.png using Guid(5881fcc1ae33d52439be93982d5be133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e99a1910f04c64c1de8414f3d9aa56') in 0.011149 seconds
+  Import took 0.017171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/UI/HyperCasual Game UI/pinkBtnNormal.png
+  artifactKey: Guid(d80c21985d5e0484591806b3e83e21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/pinkBtnNormal.png using Guid(d80c21985d5e0484591806b3e83e21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf208171a53db0fcd6c496c496f2615') in 0.010186 seconds
+  Import took 0.015870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/UI/HyperCasual Game UI/playBtnRect.png
+  artifactKey: Guid(2dfdb34c688636547be5aba5a314db55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/playBtnRect.png using Guid(2dfdb34c688636547be5aba5a314db55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c078a3ff0e9c1a193776169afa8d92d5') in 0.011337 seconds
+  Import took 0.018598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/UI/HyperCasual Game UI/pinkRectNormal.png
+  artifactKey: Guid(5de8ca17b16ecfe4c943e965ba062bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/pinkRectNormal.png using Guid(5de8ca17b16ecfe4c943e965ba062bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c565b9277a7682c10dd7c86d8a271d') in 0.010455 seconds
+  Import took 0.016598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/UI/HyperCasual Game UI/playBtn.png
+  artifactKey: Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/playBtn.png using Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7413499e76a408d775bdcf537ce25aa4') in 0.013645 seconds
+  Import took 0.019743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/UI/HyperCasual Game UI/pinkRectTapped.png
+  artifactKey: Guid(799df4a1c7db1bc41b41ab9dc64a39b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/pinkRectTapped.png using Guid(799df4a1c7db1bc41b41ab9dc64a39b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811babfda881b0693d7ae96fad39f50d') in 0.010318 seconds
+  Import took 0.017379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031608 seconds.
+  path: Assets/UI/HyperCasual Game UI/plusIcon.png
+  artifactKey: Guid(7c54a990d73c7534fb80c35b089dbfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/plusIcon.png using Guid(7c54a990d73c7534fb80c35b089dbfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8870335c15348375af0e9bf8a5a2cf2') in 0.011067 seconds
+  Import took 0.018062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/UI/HyperCasual Game UI/purpleBtnInactive.png
+  artifactKey: Guid(955c7b25866a144489c71117631b420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/purpleBtnInactive.png using Guid(955c7b25866a144489c71117631b420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff06d18f5f9e17cfe64454a29a2e7cb') in 0.012644 seconds
+  Import took 0.018449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/UI/HyperCasual Game UI/privacyIcon.png
+  artifactKey: Guid(9cb0f56aa5585c04cbd264a443422ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/privacyIcon.png using Guid(9cb0f56aa5585c04cbd264a443422ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dee3e93f23b780283065b1ca78e498') in 0.010906 seconds
+  Import took 0.016328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/UI/HyperCasual Game UI/previousBtn.png
+  artifactKey: Guid(0937fc73da642484bbdeb07290fe0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/previousBtn.png using Guid(0937fc73da642484bbdeb07290fe0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b38e20bc553208b6ac560372d9289c8') in 0.012627 seconds
+  Import took 0.018948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303708 seconds.
+  path: Assets/UI/HyperCasual Game UI/purpleBtnNormal.png
+  artifactKey: Guid(511096119d0b5d945821f51a7b61ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/purpleBtnNormal.png using Guid(511096119d0b5d945821f51a7b61ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ba9f04cd38c1375b10f7e6ea78fdb7') in 0.012459 seconds
+  Import took 0.019378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/UI/HyperCasual Game UI/purpleBtnTapped.png
+  artifactKey: Guid(97e4a4e543c35cb4cb79af8349c9a29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/purpleBtnTapped.png using Guid(97e4a4e543c35cb4cb79af8349c9a29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4675524c1b2d1fc0fb94f9f78478249') in 0.010223 seconds
+  Import took 0.016271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/UI/HyperCasual Game UI/purpleRectNormal.png
+  artifactKey: Guid(ea8960c64fd460c429cf980cb63f4f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/purpleRectNormal.png using Guid(ea8960c64fd460c429cf980cb63f4f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae058e7d1a15fa0f2804d66f199f730') in 0.010138 seconds
+  Import took 0.016516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/UI/HyperCasual Game UI/purpleBtnNormal.png
+  artifactKey: Guid(511096119d0b5d945821f51a7b61ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/purpleBtnNormal.png using Guid(511096119d0b5d945821f51a7b61ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ba9f04cd38c1375b10f7e6ea78fdb7') in 0.006990 seconds
+  Import took 0.012957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/UI/HyperCasual Game UI/purpleRectTapped.png
+  artifactKey: Guid(b5097a1339575884881963d13ca6df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/purpleRectTapped.png using Guid(b5097a1339575884881963d13ca6df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f72c6a89ba2028e3979e8ddde6ceee1') in 0.010584 seconds
+  Import took 0.016457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/UI/HyperCasual Game UI/Settings Menu.png
+  artifactKey: Guid(9ea2589f711427c4a9db80e7ae7ce46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/Settings Menu.png using Guid(9ea2589f711427c4a9db80e7ae7ce46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e1aa4056d735c564c128a47c66b685') in 0.022695 seconds
+  Import took 0.029857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/UI/HyperCasual Game UI/rewardAdsBtn.png
+  artifactKey: Guid(2cdf96b5dd71ddc4a9208974aa1b1976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/rewardAdsBtn.png using Guid(2cdf96b5dd71ddc4a9208974aa1b1976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4f4b0e1c78110b4d1fb4269da578f0') in 0.011042 seconds
+  Import took 0.017532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/UI/HyperCasual Game UI/roundEdgeRect.png
+  artifactKey: Guid(6623fe6cd1bf68149b98c1d08709b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/roundEdgeRect.png using Guid(6623fe6cd1bf68149b98c1d08709b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4976b2f6fa3fd56e8577592865329011') in 0.012575 seconds
+  Import took 0.020135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/UI/HyperCasual Game UI/rect.png
+  artifactKey: Guid(a5501daac70e49f488022ca7a1d9a7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/rect.png using Guid(a5501daac70e49f488022ca7a1d9a7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5332b08a12a3210cdf4c43b2fc6673') in 0.010580 seconds
+  Import took 0.017657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/UI/HyperCasual Game UI/slider2.png
+  artifactKey: Guid(8888e9e4ce9566942a30b4c018cd329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/slider2.png using Guid(8888e9e4ce9566942a30b4c018cd329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03740b4b6bb3383934b7745a9e2368a') in 0.010611 seconds
+  Import took 0.016506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/UI/HyperCasual Game UI/slider1.png
+  artifactKey: Guid(5e830bdba84269549a11b119999458a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/slider1.png using Guid(5e830bdba84269549a11b119999458a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57fab32f0dd6f665fa0d1cbb617843d') in 0.012681 seconds
+  Import took 0.020194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/UI/HyperCasual Game UI/shareIcon.png
+  artifactKey: Guid(f5e21facabaca7c4699276bff56f0b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/shareIcon.png using Guid(f5e21facabaca7c4699276bff56f0b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43071e9c3afe7f932d2b57355d75752') in 0.010291 seconds
+  Import took 0.016810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/UI/HyperCasual Game UI/rect2.png
+  artifactKey: Guid(0ab287a00c09d414ab1f64d8b7c774cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/rect2.png using Guid(0ab287a00c09d414ab1f64d8b7c774cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed97e133325a95d69a238004146ac2b') in 0.011682 seconds
+  Import took 0.018774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/UI/HyperCasual Game UI/restoreBtn.png
+  artifactKey: Guid(943c53baa969b2b40a5c2fc17c4312f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/restoreBtn.png using Guid(943c53baa969b2b40a5c2fc17c4312f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875136fa673ba07fcdd0a37ae26d4b3c') in 0.013915 seconds
+  Import took 0.022800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/UI/HyperCasual Game UI/settingsBtn.png
+  artifactKey: Guid(e2d3963c401ef1641bc3f416f0a2f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/settingsBtn.png using Guid(e2d3963c401ef1641bc3f416f0a2f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da001e32fb31a7c0e8f3fc93d353adc6') in 0.011533 seconds
+  Import took 0.019718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/UI/HyperCasual Game UI/slider3.png
+  artifactKey: Guid(4573726577672d54ebded6039a77cd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/slider3.png using Guid(4573726577672d54ebded6039a77cd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889c4197d1e564cd1ef82465020d20f3') in 0.010478 seconds
+  Import took 0.015892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/UI/HyperCasual Game UI/soundOffBtn.png
+  artifactKey: Guid(c59d0536e9af1fc4ca89fdd270266bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/soundOffBtn.png using Guid(c59d0536e9af1fc4ca89fdd270266bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7816e233a25a26d541b11d660fcd28') in 0.011035 seconds
+  Import took 0.016693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.400842 seconds.
+  path: Assets/UI/HyperCasual Game UI/soundOnBtn.png
+  artifactKey: Guid(dbc232df61a0d3a44b7e9a1a12fca0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/soundOnBtn.png using Guid(dbc232df61a0d3a44b7e9a1a12fca0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb45309ed1d1e4e1a61c38ba407d9330') in 0.012836 seconds
+  Import took 0.021177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/UI/HyperCasual Game UI/tickIcon.png
+  artifactKey: Guid(c49d7c5000ecab64d93e5df20156ac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/tickIcon.png using Guid(c49d7c5000ecab64d93e5df20156ac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19ee8c8592a83b2454af2d775904041') in 0.012087 seconds
+  Import took 0.018181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/UI/HyperCasual Game UI/starIcon.png
+  artifactKey: Guid(128a1d421edfa0146be2e370e8c26b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/starIcon.png using Guid(128a1d421edfa0146be2e370e8c26b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edb9f222a54fa613cd46a7f2d54ffdb') in 0.014301 seconds
+  Import took 0.020019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/UI/HyperCasual Game UI/toggleOff.png
+  artifactKey: Guid(8d8aac4a154d7e74eaa6e7d46d263052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/toggleOff.png using Guid(8d8aac4a154d7e74eaa6e7d46d263052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c40483d9e6d1e78b11c5b57434b264') in 0.010974 seconds
+  Import took 0.017005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011553 seconds.
+  path: Assets/UI/HyperCasual Game UI/toggleOn.png
+  artifactKey: Guid(7636f2856c4ccb04fb56ae9336d80e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/toggleOn.png using Guid(7636f2856c4ccb04fb56ae9336d80e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e257109f19a8d4020c8675fa54858777') in 0.012064 seconds
+  Import took 0.018883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/UI/HyperCasual Game UI/trophyIcon.png
+  artifactKey: Guid(5dad5c1a0d4e6a940b995c0051fb6904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/trophyIcon.png using Guid(5dad5c1a0d4e6a940b995c0051fb6904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c39f0f963cb01c30469e1a631410c8b') in 0.011790 seconds
+  Import took 0.019092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/UI/HyperCasual Game UI/yellowBtnTapped.png
+  artifactKey: Guid(9a79042a2f649c54f9feadbb2ba65a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/yellowBtnTapped.png using Guid(9a79042a2f649c54f9feadbb2ba65a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2adf5b83b231bb59369664d13cb2e8') in 0.013862 seconds
+  Import took 0.020720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/UI/HyperCasual Game UI/yellowRectNormal.png
+  artifactKey: Guid(d5270160707af544f8584a05b50fe425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/yellowRectNormal.png using Guid(d5270160707af544f8584a05b50fe425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9bdf21762df0e370a484f8faea69c4') in 0.012178 seconds
+  Import took 0.017933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/UI/HyperCasual Game UI/whiteBG.png
+  artifactKey: Guid(3a556e7bff4a0fd4fb19a8df157637ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/whiteBG.png using Guid(3a556e7bff4a0fd4fb19a8df157637ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7c5b013f676c755128539af20dbad3') in 0.011137 seconds
+  Import took 0.017302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/UI/HyperCasual Game UI/yellowBtnInactive.png
+  artifactKey: Guid(0e60466e452ce044892dc969c01b55c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/yellowBtnInactive.png using Guid(0e60466e452ce044892dc969c01b55c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daedd1318f57ae911f2251e48d07ffee') in 0.010502 seconds
+  Import took 0.016659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/UI/HyperCasual Game UI/yellowBtnNormal.png
+  artifactKey: Guid(1b68e8e13f267ba47a6ca26dce60238d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/yellowBtnNormal.png using Guid(1b68e8e13f267ba47a6ca26dce60238d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fe373f6af6ae68ff4c1f5c9d6a2072') in 0.013651 seconds
+  Import took 0.020412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/UI/HyperCasual Game UI/unlikeBtn.png
+  artifactKey: Guid(6f193de8b9e227043bad4d2e7b45ec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/unlikeBtn.png using Guid(6f193de8b9e227043bad4d2e7b45ec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e20545c714fac9f25ca4552d89e921') in 0.012088 seconds
+  Import took 0.018503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.498368 seconds.
+  path: Assets/UI/HyperCasual Game UI/yellowRectTapped.png
+  artifactKey: Guid(900e5f98f43a4194a881ee1758559bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/yellowRectTapped.png using Guid(900e5f98f43a4194a881ee1758559bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926aa576e81808116681c65884265060') in 0.010852 seconds
+  Import took 0.016707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005122 seconds.
+  path: Assets/UI/HyperCasual Game UI/yellowRectTapped.png
+  artifactKey: Guid(900e5f98f43a4194a881ee1758559bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/yellowRectTapped.png using Guid(900e5f98f43a4194a881ee1758559bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926aa576e81808116681c65884265060') in 0.006450 seconds
+  Import took 0.012822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.664980 seconds.
+  path: Assets/UI/HyperCasual Game UI/purpleBtnNormal.png
+  artifactKey: Guid(511096119d0b5d945821f51a7b61ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/purpleBtnNormal.png using Guid(511096119d0b5d945821f51a7b61ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de63521f89f23517ea9cb095466b015b') in 0.043344 seconds
+  Import took 0.050449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.143493 seconds.
+  path: Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/circle.png
+  artifactKey: Guid(098b426cb73dd953886efddf38416b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/circle.png using Guid(098b426cb73dd953886efddf38416b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8847b6db2fea8c30bb39d1d2c358e2b2') in 0.020356 seconds
+  Import took 0.026778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/directional-x.png
+  artifactKey: Guid(d3fd5bb7b3dd860a8948182a7ce8bba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/directional-x.png using Guid(d3fd5bb7b3dd860a8948182a7ce8bba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7d3b71632d8c0314e3da8a410c47df') in 0.022980 seconds
+  Import took 0.028752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/circle-border.png
+  artifactKey: Guid(0292bb946198207e9b17503e15966465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/circle-border.png using Guid(0292bb946198207e9b17503e15966465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6a3022d4a0e4b58389be7bc4a5c3d8') in 0.012006 seconds
+  Import took 0.018163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/circle.png
+  artifactKey: Guid(098b426cb73dd953886efddf38416b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/circle.png using Guid(098b426cb73dd953886efddf38416b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8847b6db2fea8c30bb39d1d2c358e2b2') in 0.010681 seconds
+  Import took 0.016344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/directional-y.png
+  artifactKey: Guid(7511b9f86b8092342a3d62fb936c51c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/directional-y.png using Guid(7511b9f86b8092342a3d62fb936c51c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce0dd3df61c7d3ff019a0d7ce4e3f31') in 0.018886 seconds
+  Import took 0.024978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/joystick.png
+  artifactKey: Guid(83adf99002fa21b9f8602d8d97948c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/joystick.png using Guid(83adf99002fa21b9f8602d8d97948c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebb847d63ef68de33255331661d7044') in 0.022798 seconds
+  Import took 0.030124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/directional.png
+  artifactKey: Guid(a94e22f504b6549b4b99a471ca0e1d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalResources/VirtualButtonsForUnity/VirtualButtonsForUnity/Sprites/directional.png using Guid(a94e22f504b6549b4b99a471ca0e1d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7408794e3402be54918615866ae75aa4') in 0.025819 seconds
+  Import took 0.031868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.775934 seconds.
+  path: Assets/UI/HyperCasual Game UI/playBtn.png
+  artifactKey: Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/playBtn.png using Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe83f9766257cf7944d8d0f6e2cec5f') in 0.013073 seconds
+  Import took 0.020101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004960 seconds.
+  path: Assets/UI/HyperCasual Game UI/playBtn.png
+  artifactKey: Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/playBtn.png using Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe83f9766257cf7944d8d0f6e2cec5f') in 0.011287 seconds
+  Import took 0.017744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.823564 seconds.
+  path: Assets/UI/HyperCasual Game UI/playBtn.png
+  artifactKey: Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/playBtn.png using Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8f42d2179485af9ce6e085bf996243') in 0.010453 seconds
+  Import took 0.017050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.488299 seconds.
+  path: Assets/UI/HyperCasual Game UI/playBtn.png
+  artifactKey: Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/playBtn.png using Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e114791f11553ddd275df5ab74d13665') in 0.008961 seconds
+  Import took 0.015061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.704175 seconds.
+  path: Assets/UI/HyperCasual Game UI/playBtn.png
+  artifactKey: Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/playBtn.png using Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adaae2738fcf03df02344ab3eafa3869') in 0.012388 seconds
+  Import took 0.018538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.439914 seconds.
+  path: Assets/UI/HyperCasual Game UI/playBtn.png
+  artifactKey: Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/playBtn.png using Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48332ce265d71b7979f1193683b42750') in 0.010073 seconds
+  Import took 0.016760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.873641 seconds.
+  path: Assets/UI/HyperCasual Game UI/playBtn.png
+  artifactKey: Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/playBtn.png using Guid(c55dca56b9fbe48428f2e81856973691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2300dd4ab41781ed02630503f2d0628a') in 0.008906 seconds
+  Import took 0.015199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.942710 seconds.
+  path: Assets/UI/HyperCasual Game UI/rewardAdsBtn.png
+  artifactKey: Guid(2cdf96b5dd71ddc4a9208974aa1b1976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/rewardAdsBtn.png using Guid(2cdf96b5dd71ddc4a9208974aa1b1976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4619423e372f2a8bf8667e0fef20d371') in 0.012549 seconds
+  Import took 0.019636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.219342 seconds.
+  path: Assets/UI/HyperCasual Game UI/rewardAdsBtn.png
+  artifactKey: Guid(2cdf96b5dd71ddc4a9208974aa1b1976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/rewardAdsBtn.png using Guid(2cdf96b5dd71ddc4a9208974aa1b1976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9e37836a72cf975485bd10c55fc47a') in 0.012412 seconds
+  Import took 0.018669 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006761 seconds.
+Registered in 0.005886 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.072 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3516 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.0 MB.
-System memory in use after: 145.2 MB.
+Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.7 MB.
+System memory in use after: 145.0 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4028.
-Total: 3.018800 ms (FindLiveObjects: 0.501400 ms CreateObjectMapping: 0.086700 ms MarkObjects: 2.400200 ms  DeleteObjects: 0.029300 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4001.
+Total: 3.137900 ms (FindLiveObjects: 0.658000 ms CreateObjectMapping: 0.102100 ms MarkObjects: 2.349400 ms  DeleteObjects: 0.026700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 12.057059 seconds.
-  path: Assets/Scripts/Environment
-  artifactKey: Guid(bd930a1d9a092974393cd3539d17b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Environment using Guid(bd930a1d9a092974393cd3539d17b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846f31eddb275f215eb858256d29e6d4') in 0.012020 seconds
-  Import took 0.018320 seconds .
+  Time since last request: 876.390869 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da85cf7fd7476ed7f5db9f1b3d5a26ee') in 0.025807 seconds
+  Import took 0.033281 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004931 seconds.
+Registered in 0.005367 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.050 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3516 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.9 MB.
-System memory in use after: 145.1 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4031.
-Total: 2.984900 ms (FindLiveObjects: 0.443500 ms CreateObjectMapping: 0.086100 ms MarkObjects: 2.425900 ms  DeleteObjects: 0.028200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 10.783100 seconds.
-  path: Assets/Scripts/UI
-  artifactKey: Guid(b8ad753c21737a944b648f30c8b819e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI using Guid(b8ad753c21737a944b648f30c8b819e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bab0b729e9d3f2936a47fa4697a3660') in 0.011213 seconds
-  Import took 0.017942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.921255 seconds.
-  path: Assets/Scripts/UI/ScoreUI.cs
-  artifactKey: Guid(ce74282f6fe56da4dbe893cc7f3914b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/ScoreUI.cs using Guid(ce74282f6fe56da4dbe893cc7f3914b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491e094a04d3624c31e5b318776d2827') in 0.006353 seconds
-  Import took 0.019734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001314 seconds.
-  path: Assets/Scripts/UI/ScoreUI.cs
-  artifactKey: Guid(ce74282f6fe56da4dbe893cc7f3914b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/ScoreUI.cs using Guid(ce74282f6fe56da4dbe893cc7f3914b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491e094a04d3624c31e5b318776d2827') in 0.002371 seconds
-  Import took 0.006858 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005739 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.0 MB.
-System memory in use after: 145.3 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4035.
-Total: 3.077100 ms (FindLiveObjects: 0.709600 ms CreateObjectMapping: 0.093100 ms MarkObjects: 2.248800 ms  DeleteObjects: 0.024300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005181 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.032 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.1 MB.
-System memory in use after: 145.3 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4038.
-Total: 2.906500 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.089200 ms MarkObjects: 2.331200 ms  DeleteObjects: 0.031200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 69.968291 seconds.
-  path: Assets/Scripts/UI/ScoreUI.cs
-  artifactKey: Guid(ce74282f6fe56da4dbe893cc7f3914b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/ScoreUI.cs using Guid(ce74282f6fe56da4dbe893cc7f3914b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae89ab9d49b15f865ccd3653c2195df3') in 0.010674 seconds
-  Import took 0.024014 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004883 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.041 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.0 MB.
-System memory in use after: 145.2 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4041.
-Total: 3.001800 ms (FindLiveObjects: 0.797500 ms CreateObjectMapping: 0.088900 ms MarkObjects: 2.093600 ms  DeleteObjects: 0.020300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005847 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.046 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.1 MB.
-System memory in use after: 145.3 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4044.
-Total: 3.018000 ms (FindLiveObjects: 0.571600 ms CreateObjectMapping: 0.086600 ms MarkObjects: 2.325200 ms  DeleteObjects: 0.033300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005000 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.1 MB.
-System memory in use after: 145.3 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4047.
-Total: 2.891700 ms (FindLiveObjects: 0.438300 ms CreateObjectMapping: 0.098900 ms MarkObjects: 2.324200 ms  DeleteObjects: 0.029100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005256 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.073 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.0 MB.
-System memory in use after: 145.3 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4050.
-Total: 3.137500 ms (FindLiveObjects: 0.586800 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.431700 ms  DeleteObjects: 0.032000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005227 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
+- Completed reload, in  1.134 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.1 MB.
-System memory in use after: 145.4 MB.
+System memory in use before: 144.7 MB.
+System memory in use after: 144.9 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4053.
-Total: 2.825300 ms (FindLiveObjects: 0.395300 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.311300 ms  DeleteObjects: 0.031500 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4004.
+Total: 3.130700 ms (FindLiveObjects: 0.578300 ms CreateObjectMapping: 0.086800 ms MarkObjects: 2.434300 ms  DeleteObjects: 0.029400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 1572.486243 seconds.
+  path: Assets/Scenes/Menu Scene.unity
+  artifactKey: Guid(9b94e7c873d457040b4141b584f8d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu Scene.unity using Guid(9b94e7c873d457040b4141b584f8d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2af32f1dac418123c05c94a07b6d6d') in 0.024354 seconds
+  Import took 0.031730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.584403 seconds.
+  path: Assets/Scenes/Restart Scene.unity
+  artifactKey: Guid(c60ab198143f22a4399c474798ec1a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Restart Scene.unity using Guid(c60ab198143f22a4399c474798ec1a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9433536ff2f0e37758bcb56d7a0c7e5') in 0.007255 seconds
+  Import took 0.014044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002521 seconds.
+  path: Assets/Scenes/Restart Scene.unity
+  artifactKey: Guid(c60ab198143f22a4399c474798ec1a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Restart Scene.unity using Guid(c60ab198143f22a4399c474798ec1a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9433536ff2f0e37758bcb56d7a0c7e5') in 0.002783 seconds
+  Import took 0.008314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.727275 seconds.
+  path: Assets/UI/HyperCasual Game UI/trophyIcon.png
+  artifactKey: Guid(5dad5c1a0d4e6a940b995c0051fb6904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/trophyIcon.png using Guid(5dad5c1a0d4e6a940b995c0051fb6904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ccea8dc195b3d2c9d1479e0f8126af') in 0.048233 seconds
+  Import took 0.054657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 235.171814 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c465d5532d6aaff62940c52646a4ce5') in 0.005054 seconds
+  Import took 0.011887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.671037 seconds.
+  path: Assets/Scenes/Menu Scene.unity
+  artifactKey: Guid(9b94e7c873d457040b4141b584f8d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu Scene.unity using Guid(9b94e7c873d457040b4141b584f8d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c01add46e8c1d0e481447f5c17f59c0') in 0.003124 seconds
+  Import took 0.009248 seconds .
+

@@ -45,6 +45,7 @@ public class RoosterPositions : MonoBehaviour
             if(currentPos <= positions.Count - 1) //not gameOver
             {
                 ChangePosition(currentPos);
+                SoundManager.Instance.PlaySFX("getHit");
 
                 //can't collide for a few seconds and get hit animation
                 SetGotHit(true);
