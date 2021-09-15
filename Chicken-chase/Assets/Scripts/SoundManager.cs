@@ -19,12 +19,13 @@ public class SoundManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(this);
     }
 
     private void Start()
     {
-        jump = Resources.Load<AudioClip>("Sounds/RoosterWingFlapping");
+        audioSrc = GetComponent<AudioSource>();
+
+        jump = Resources.Load<AudioClip>("Sounds/RoosterClucks");
         duck = Resources.Load<AudioClip>("Sounds/RoosterChook");
         getHit = Resources.Load<AudioClip>("Sounds/ChickenClucking");
 
