@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RoosterPositions : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class RoosterPositions : MonoBehaviour
 
         //initial position
         ChangePosition(currentPos);
+
+        //set Score 0;
+        ScoreSystem.Instance.ResetScore();
     }
 
     private void Update()
@@ -56,12 +60,17 @@ public class RoosterPositions : MonoBehaviour
             }
             else
             {
-                //gameOver
+                //game Over
+                SceneManager.LoadScene(2);//restart scene.
             }
 
         }
+        if (other.tag == "Score")
+        {
+            ScoreSystem.Instance.Score();
+        }
     }
-
+ 
     private void ChangePosition(int index)
     {
         transform.position = positions[index];

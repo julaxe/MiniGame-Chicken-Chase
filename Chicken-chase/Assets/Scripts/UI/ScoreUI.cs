@@ -16,7 +16,7 @@ public class ScoreUI : MonoBehaviour
     {
         if(tmpPro)
         {
-            tmpPro.text = ScoreSystem.GameScore.ToString();
+            tmpPro.text = ScoreSystem.Instance.GetScore().ToString();
         }
     }
 }

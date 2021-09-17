@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CR71V3QWD",
         "name": "com.Julaxe.Chickenchase",
-        "processId": 29725,
+        "processId": 17263,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -90,6 +90,24 @@
             "deviceId": "R5CR71V3QWD",
             "name": "com.Julaxe.Chickenchase",
             "processId": 29725,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR71V3QWD",
+            "name": "com.Julaxe.Chickenchase",
+            "processId": 32183,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR71V3QWD",
+            "name": "com.Julaxe.Chickenchase",
+            "processId": 15298,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR71V3QWD",
+            "name": "com.Julaxe.Chickenchase",
+            "processId": 17263,
             "exited": false
         },
         {

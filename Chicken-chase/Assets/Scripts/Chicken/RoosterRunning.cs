@@ -34,6 +34,7 @@ public class RoosterRunning : MonoBehaviour
     {
         bool jumpPress = playerInput.Chicken.Jump.IsPressed();
         bool duckPress = playerInput.Chicken.Duck.IsPressed();
+
         if (jumpPress && !animator.GetBool("Jump"))
         {
             animator.SetBool("Jump", true);

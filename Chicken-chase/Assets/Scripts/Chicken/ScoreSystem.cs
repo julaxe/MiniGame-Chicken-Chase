@@ -4,13 +4,37 @@ using UnityEngine;
 
 public class ScoreSystem : MonoBehaviour
 {
-    public static int GameScore = 0;
-    private void OnTriggerEnter(Collider other)
+
+    public static ScoreSystem Instance;
+
+    private int GameScore = 0;
+
+    private void Awake()
     {
-        if(other.tag == "Score")
+        if (Instance != null && Instance != this)
         {
-            ScoreSystem.GameScore++;
-            Debug.Log(ScoreSystem.GameScore);
+            Destroy(this.gameObject);
+            return;
         }
+
+        Instance = this;
+        DontDestroyOnLoad(this);
     }
+
+    public void Score()
+    {
+        GameScore++;
+    }
+
+    public int GetScore()
+    {
+        return GameScore;
+    }
+
+    public void ResetScore()
+    {
+        GameScore = 0;
+    }
+
+    
 }
