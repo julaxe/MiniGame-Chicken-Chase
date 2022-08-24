@@ -1,879 +1,612 @@
 Using pre-set license
-Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16332 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
- COMMAND LINE ARGUMENTS:
-C:\Users\Julaxe\Documents\dev\Unity\2020.3.7f1\Editor\Unity.exe
+COMMAND LINE ARGUMENTS:
+C:\Users\Julaxe\Documents\dev\Unity\2021.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Julaxe/Documents/dev/MiniGames/MiniGame-Chicken-Chase/Chicken-chase
+D:/dev/Personal/Unity/MiniGame-Chicken-Chase/Chicken-chase
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63144
-Successfully changed project path to: C:/Users/Julaxe/Documents/dev/MiniGames/MiniGame-Chicken-Chase/Chicken-chase
-C:/Users/Julaxe/Documents/dev/MiniGames/MiniGame-Chicken-Chase/Chicken-chase
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 96.34 ms, found 3 plugins.
+63983
+Successfully changed project path to: D:/dev/Personal/Unity/MiniGame-Chicken-Chase/Chicken-chase
+D:/dev/Personal/Unity/MiniGame-Chicken-Chase/Chicken-chase
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 105.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.7f1 (dd97f2c94397)
-[Subsystems] Discovering subsystems at path C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Julaxe/Documents/dev/MiniGames/MiniGame-Chicken-Chase/Chicken-chase/Assets
-GfxDevice: creating device client; threaded=0
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Users/Julaxe/Documents/dev/Unity/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/dev/Personal/Unity/MiniGame-Chicken-Chase/Chicken-chase/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 570 Series (ID=0x67df)
-    Vendor:   
-    VRAM:     4075 MB
-    Driver:   27.20.22001.14011
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   30.0.15.1215
 Initialize mono
-Mono path[0] = 'C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Mono path[0] = 'C:/Users/Julaxe/Documents/dev/Unity/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Julaxe/Documents/dev/Unity/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/Julaxe/Documents/dev/Unity/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/Julaxe/Documents/dev/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001689 seconds.
+Register platform support module: C:/Users/Julaxe/Documents/dev/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/Julaxe/Documents/dev/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Users/Julaxe/Documents/dev/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Users/Julaxe/Documents/dev/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.011245 seconds.
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.92 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 86.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.834 seconds
+- Completed reload, in  0.699 seconds
+Domain Reload Profiling:
+	ReloadAssembly (700ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005081 seconds.
+Registered in 0.007612 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\dev\Personal\Unity\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\dev\Personal\Unity\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.08 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 91.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path D:\dev\Personal\Unity\MiniGame-Chicken-Chase\Chicken-chase\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d4cde64232cf45659d86aafa597faa77>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <d4cde64232cf45659d86aafa597faa77>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <d4cde64232cf45659d86aafa597faa77>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <d4cde64232cf45659d86aafa597faa77>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at Google.ProjectSettings.Save () [0x0006d] in /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:820 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:837)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:484)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:496)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:917)
+Google.IOSResolver:.cctor () (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:653)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 837)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
+Package Manager log level set to [2]
+- Completed reload, in  1.432 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1433ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (1081ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3653 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.9 MB.
-System memory in use after: 150.1 MB.
+Unloading 3963 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (57.0 KB). Loaded Objects now: 4373.
+Memory consumption went from 139.5 MB to 139.4 MB.
+Total: 3.952800 ms (FindLiveObjects: 0.465400 ms CreateObjectMapping: 0.123700 ms MarkObjects: 3.267300 ms  DeleteObjects: 0.095200 ms)
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4101.
-Total: 3.155000 ms (FindLiveObjects: 0.506300 ms CreateObjectMapping: 0.090000 ms MarkObjects: 2.515300 ms  DeleteObjects: 0.041600 ms)
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 540810.696105 seconds.
+  path: Assets/Prefabs/Branch.prefab
+  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bfd7089c5f94eb5c03bf2b0b3de37f') in 0.705939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/rooster2.prefab
+  artifactKey: Guid(cd29a76f81582ec43af6e37be1f5738e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/rooster2.prefab using Guid(cd29a76f81582ec43af6e37be1f5738e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bcac49d6526086063d9e6bfae354e0') in 0.733536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.103582 seconds.
+  path: Assets/Scenes/Restart Scene.unity
+  artifactKey: Guid(c60ab198143f22a4399c474798ec1a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Restart Scene.unity using Guid(c60ab198143f22a4399c474798ec1a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432a1993c31edea4b903fc4ea9c10173') in 0.006493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.242045 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d28393ee3227dc5209c81c176601ba') in 0.005686 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005047 seconds.
+Registered in 0.006615 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\dev\Personal\Unity\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\dev\Personal\Unity\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.156 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Native extension for Android target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.2 MB.
-System memory in use after: 148.4 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4105.
-Total: 2.909900 ms (FindLiveObjects: 0.539100 ms CreateObjectMapping: 0.089800 ms MarkObjects: 2.255100 ms  DeleteObjects: 0.025100 ms)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1074ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (424ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3944 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (26.0 KB). Loaded Objects now: 4384.
+Memory consumption went from 155.0 MB to 155.0 MB.
+Total: 4.388800 ms (FindLiveObjects: 0.457200 ms CreateObjectMapping: 0.122800 ms MarkObjects: 3.761700 ms  DeleteObjects: 0.045500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/PlayFabSDK/PlayFab.asmdef
-  artifactKey: Guid(0da6d172d18a54e4389d0dce1e1ffdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabSDK/PlayFab.asmdef using Guid(0da6d172d18a54e4389d0dce1e1ffdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a280149739f5484fb54adfcfaccec8ec') in 0.037046 seconds
-  Import took 0.043840 seconds .
-
+  Time since last request: 285.373475 seconds.
+  path: Assets/Resources/Sounds/BackgroundMusic.mp3
+  artifactKey: Guid(1745af243569e9f49a5120b2b38a1d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds/BackgroundMusic.mp3 using Guid(1745af243569e9f49a5120b2b38a1d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14252d745e9bedd6d5edc46fc9dc6ed8') in 0.092803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Sounds/RoosterClucks.wav
+  artifactKey: Guid(4c9c40c2425bb4e42bf7470af6b62cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds/RoosterClucks.wav using Guid(4c9c40c2425bb4e42bf7470af6b62cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc65a34dacaaba6a4f841ab37ab6ab0f') in 0.017816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Sounds/RoosterChook.wav
+  artifactKey: Guid(c3626c2b014bd864db9af9df4ba97647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds/RoosterChook.wav using Guid(c3626c2b014bd864db9af9df4ba97647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c3700adbe6366ee1750c3c2fd137ae') in 0.012781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.003430 seconds.
+  path: Assets/Models/twistedPlatform3.fbx
+  artifactKey: Guid(e21f7769aa3a63b40b318eefd51550ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/twistedPlatform3.fbx using Guid(e21f7769aa3a63b40b318eefd51550ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4aaf50a9b67ce7f43d451f12dfc424') in 0.112956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.707923 seconds.
+  path: Assets/Models/Materials/Chicken/Iris.mat
+  artifactKey: Guid(486808f7d03f0b24ea5c9a6a80ad5bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Chicken/Iris.mat using Guid(486808f7d03f0b24ea5c9a6a80ad5bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809f1f83e75daec2950f72f2e4aaf90a') in 0.017009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Materials/Chicken/pupil.mat
+  artifactKey: Guid(3e675647ecebd304092b0bf6bafbd660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Chicken/pupil.mat using Guid(3e675647ecebd304092b0bf6bafbd660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9802b47ead9097c127e0adde1f3fb406') in 0.014329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.686711 seconds.
+  path: Assets/Models/Materials/Plane/Twisted1.mat
+  artifactKey: Guid(5c6e7cd7dfd321442bb1ac1c2c8017b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Plane/Twisted1.mat using Guid(5c6e7cd7dfd321442bb1ac1c2c8017b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886b12a1ad9b84c0d99cbf18b90b41e2') in 0.014564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.607435 seconds.
+  path: Assets/Fonts/Plaguard-ZVnjx.otf
+  artifactKey: Guid(6e382266fcee8ea4b905255dc377cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Plaguard-ZVnjx.otf using Guid(6e382266fcee8ea4b905255dc377cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25b02573b7ad7cd86aebf6a6bf1f1af') in 0.036243 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005286 seconds.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
+Registered in 0.007642 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\dev\Personal\Unity\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\dev\Personal\Unity\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path D:\dev\Personal\Unity\MiniGame-Chicken-Chase\Chicken-chase\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d4cde64232cf45659d86aafa597faa77>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <d4cde64232cf45659d86aafa597faa77>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <d4cde64232cf45659d86aafa597faa77>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <d4cde64232cf45659d86aafa597faa77>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at Google.ProjectSettings.Save () [0x0006d] in /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:820 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:837)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:484)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:496)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:917)
+Google.IOSResolver:.cctor () (at /Users/chkuang/Workspace/Git/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:653)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/chkuang/Workspace/Git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 837)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
+- Completed reload, in  1.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1087ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.1 MB.
-System memory in use after: 146.3 MB.
-
-Unloading 121 unused Assets to reduce memory usage. Loaded Objects now: 4022.
-Total: 3.182600 ms (FindLiveObjects: 0.639600 ms CreateObjectMapping: 0.258600 ms MarkObjects: 2.218500 ms  DeleteObjects: 0.064100 ms)
+Unloading 3944 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (26.1 KB). Loaded Objects now: 4429.
+Memory consumption went from 155.6 MB to 155.5 MB.
+Total: 3.713000 ms (FindLiveObjects: 0.423800 ms CreateObjectMapping: 0.327100 ms MarkObjects: 2.915100 ms  DeleteObjects: 0.045800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.555097 seconds.
+  path: Assets/UI/HyperCasual Game UI/backBtn.png
+  artifactKey: Guid(20ef124adba058842a76855967a3eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/backBtn.png using Guid(20ef124adba058842a76855967a3eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27aa90f635422e0e5a5e87212d01ca19') in 0.056224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/HyperCasual Game UI/cornerSquare2.png
+  artifactKey: Guid(69bf74ec26bdb6141ade500ffa9f290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/cornerSquare2.png using Guid(69bf74ec26bdb6141ade500ffa9f290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84e69f8e8dc0ba9ff418f866d723ada') in 0.019386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI/HyperCasual Game UI/purpleRectNormal.png
+  artifactKey: Guid(ea8960c64fd460c429cf980cb63f4f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/purpleRectNormal.png using Guid(ea8960c64fd460c429cf980cb63f4f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77aab325d8709e70276721f3743bf186') in 0.015098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI/HyperCasual Game UI/purpleBtnNormal.png
+  artifactKey: Guid(511096119d0b5d945821f51a7b61ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/purpleBtnNormal.png using Guid(511096119d0b5d945821f51a7b61ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee7cf64ec74e76964728887a4361f76') in 0.037991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/HyperCasual Game UI/hintIcon.png
+  artifactKey: Guid(2ef7a03d28a69d141a87816d00554b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/hintIcon.png using Guid(2ef7a03d28a69d141a87816d00554b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fba74aeccac6d6632e343b4eda666ab') in 0.013429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UI/HyperCasual Game UI/toggleOn.png
+  artifactKey: Guid(7636f2856c4ccb04fb56ae9336d80e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/toggleOn.png using Guid(7636f2856c4ccb04fb56ae9336d80e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904b48054e9ba09d2637ca96c240e033') in 0.015489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/HyperCasual Game UI/yellowBtnNormal.png
+  artifactKey: Guid(1b68e8e13f267ba47a6ca26dce60238d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/yellowBtnNormal.png using Guid(1b68e8e13f267ba47a6ca26dce60238d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4b15acef60bc4eb9c28e233ae577e5') in 0.016136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI/HyperCasual Game UI/greenBtnTapped.png
+  artifactKey: Guid(dad418e6be1ed9c429fa72e15edab055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/greenBtnTapped.png using Guid(dad418e6be1ed9c429fa72e15edab055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e4dc52485c0b3c1e1b672263ffc0cd') in 0.015447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI/HyperCasual Game UI/rect.png
+  artifactKey: Guid(a5501daac70e49f488022ca7a1d9a7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/rect.png using Guid(a5501daac70e49f488022ca7a1d9a7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899c75c7dcc61382a843ccda487647ef') in 0.015008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI/HyperCasual Game UI/pinkBtnNormal.png
+  artifactKey: Guid(d80c21985d5e0484591806b3e83e21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/pinkBtnNormal.png using Guid(d80c21985d5e0484591806b3e83e21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa8eae4bc34e51bc7d970f40913bfb3') in 0.015868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/UI/HyperCasual Game UI/greenRectTapped.png
+  artifactKey: Guid(2c908eee7deb7954ea491b0b44258609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/greenRectTapped.png using Guid(2c908eee7deb7954ea491b0b44258609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d7660d5a000ab1dc03fdf5c894892d') in 0.017224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI/HyperCasual Game UI/greenBtnInactive.png
+  artifactKey: Guid(34394deea60526b4aa74c908446ee26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/greenBtnInactive.png using Guid(34394deea60526b4aa74c908446ee26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6fbcbdef9b4101d3f3caf7f2aa5bcb') in 0.014410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/HyperCasual Game UI/nextBtn.png
+  artifactKey: Guid(9adb1e24ac3d29546a7a9b6c36cb6923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/nextBtn.png using Guid(9adb1e24ac3d29546a7a9b6c36cb6923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d0c7d82d25a8e98a29beda6185cf22') in 0.014497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI/HyperCasual Game UI/slider2.png
+  artifactKey: Guid(8888e9e4ce9566942a30b4c018cd329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/slider2.png using Guid(8888e9e4ce9566942a30b4c018cd329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7bb5b52b092537e9830b99cc3f17a0') in 0.014994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UI/HyperCasual Game UI/heartIcon.png
+  artifactKey: Guid(1721471e383e7de4ca4b2fcbe17e61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/heartIcon.png using Guid(1721471e383e7de4ca4b2fcbe17e61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d6919f340be8fe2e69a24330db5723') in 0.017491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/HyperCasual Game UI/yellowBtnInactive.png
+  artifactKey: Guid(0e60466e452ce044892dc969c01b55c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/yellowBtnInactive.png using Guid(0e60466e452ce044892dc969c01b55c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaca276e5a3f2c73b9ace475ff9d3d34') in 0.015189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/HyperCasual Game UI/roundEdgeRect.png
+  artifactKey: Guid(6623fe6cd1bf68149b98c1d08709b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/roundEdgeRect.png using Guid(6623fe6cd1bf68149b98c1d08709b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797f04e46c96d8fb64ab6e86d62de624') in 0.017918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/HyperCasual Game UI/pauseBtn.png
+  artifactKey: Guid(7078cdd9bf95c6f469686b11529206cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/pauseBtn.png using Guid(7078cdd9bf95c6f469686b11529206cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0e74dd8c3eb8cdedf4aa63cf317773') in 0.017217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UI/HyperCasual Game UI/plusIcon.png
+  artifactKey: Guid(7c54a990d73c7534fb80c35b089dbfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/plusIcon.png using Guid(7c54a990d73c7534fb80c35b089dbfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03362b2133299d9b9d68375e3601725') in 0.018272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UI/HyperCasual Game UI/homeBtn.png
+  artifactKey: Guid(3f9a5a60bb7c82d44bf816ea82de7cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/homeBtn.png using Guid(3f9a5a60bb7c82d44bf816ea82de7cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eb37a3c3f2e2d8b29c9e2e508934a3') in 0.017063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/HyperCasual Game UI/blueBtnNormal.png
+  artifactKey: Guid(cc6691212819cc34793e79bf2d7a9e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/blueBtnNormal.png using Guid(cc6691212819cc34793e79bf2d7a9e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2941618c3d35a0954fed168b2417fd68') in 0.016824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UI/HyperCasual Game UI/slider3.png
+  artifactKey: Guid(4573726577672d54ebded6039a77cd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/slider3.png using Guid(4573726577672d54ebded6039a77cd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4e4896b738174fb2b1a440a6dd796d') in 0.017541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UI/HyperCasual Game UI/cornerSquare.png
+  artifactKey: Guid(10cc49398bcc6054684389967472ef09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/cornerSquare.png using Guid(10cc49398bcc6054684389967472ef09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19fb1a3ca75f2995146e0314ef7463c') in 0.019471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UI/HyperCasual Game UI/soundOffBtn.png
+  artifactKey: Guid(c59d0536e9af1fc4ca89fdd270266bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/HyperCasual Game UI/soundOffBtn.png using Guid(c59d0536e9af1fc4ca89fdd270266bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266ededbc0c71a08c758f7bdf4b433cd') in 0.017953 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006743 seconds.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
+Registered in 0.006783 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\dev\Personal\Unity\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\dev\Personal\Unity\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-GPGSUpgrader start
-
-GPGSUpgrader done
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.177 seconds
+- Completed reload, in  1.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (860ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3591 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.9 MB.
-System memory in use after: 145.2 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4099.
-Total: 3.826700 ms (FindLiveObjects: 1.126600 ms CreateObjectMapping: 0.148000 ms MarkObjects: 2.518500 ms  DeleteObjects: 0.030900 ms)
+Unloading 3944 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (26.2 KB). Loaded Objects now: 4439.
+Memory consumption went from 155.6 MB to 155.6 MB.
+Total: 3.785100 ms (FindLiveObjects: 0.529400 ms CreateObjectMapping: 0.111000 ms MarkObjects: 3.116100 ms  DeleteObjects: 0.027300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006829 seconds.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-GPGSUpgrader start
-
-GPGSUpgrader done
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.238 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3591 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.9 MB.
-System memory in use after: 145.2 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4102.
-Total: 3.018800 ms (FindLiveObjects: 0.473900 ms CreateObjectMapping: 0.089700 ms MarkObjects: 2.421200 ms  DeleteObjects: 0.032900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007246 seconds.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-GPGSUpgrader start
-
-GPGSUpgrader done
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3591 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.0 MB.
-System memory in use after: 145.2 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4105.
-Total: 3.170600 ms (FindLiveObjects: 0.616700 ms CreateObjectMapping: 0.135100 ms MarkObjects: 2.394400 ms  DeleteObjects: 0.022900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 369.294492 seconds.
-  path: Assets/ExternalResources/Adaptive Performance/Settings
-  artifactKey: Guid(5fbc0fb8510dae8418ff045fa10667ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Adaptive Performance/Settings using Guid(5fbc0fb8510dae8418ff045fa10667ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c6ba15cb55645ece8b8cc58fa231a0') in 0.015477 seconds
-  Import took 0.021774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.982043 seconds.
-  path: Assets/ExternalResources/Adaptive Performance/Provider
-  artifactKey: Guid(a233fcbdb6dbf2f40bf97d068341b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Adaptive Performance/Provider using Guid(a233fcbdb6dbf2f40bf97d068341b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0868287a1df5fc0d6f7bcc9839ae1295') in 0.007020 seconds
-  Import took 0.012896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.118032 seconds.
-  path: Assets/ExternalResources/Adaptive Performance/Provider/Samsung Android Provider Loader.asset
-  artifactKey: Guid(c17154b7e9664cc4ea0834b9772659bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Adaptive Performance/Provider/Samsung Android Provider Loader.asset using Guid(c17154b7e9664cc4ea0834b9772659bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb0e491f05d8c73b464d4b33a512c76') in 0.018451 seconds
-  Import took 0.024709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.152797 seconds.
-  path: Assets/ExternalResources/SimpleNaturePack/Models
-  artifactKey: Guid(f2460ba6bbb1eee41b63499dcba676dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/SimpleNaturePack/Models using Guid(f2460ba6bbb1eee41b63499dcba676dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8ecc521a2884cafef13fed2c5561e6') in 0.006809 seconds
-  Import took 0.012611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.860892 seconds.
-  path: Assets/ExternalResources/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png
-  artifactKey: Guid(28a51d508c86a8948b59df81d5188b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png using Guid(28a51d508c86a8948b59df81d5188b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6825b0b40c029f2fc524c4d07ccfee2') in 0.086527 seconds
-  Import took 0.092735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.797916 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Art/Materials/1.mat
-  artifactKey: Guid(edb3130a1ebb40d4ab78082b0aa98920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Art/Materials/1.mat using Guid(edb3130a1ebb40d4ab78082b0aa98920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bec4deda172c93f70eb4a7e5c99bc3') in 0.061908 seconds
-  Import took 0.068164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.195885 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Art/Textures/Gnd.png
-  artifactKey: Guid(d8732902c9f48d14ca1023bd189d0b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Art/Textures/Gnd.png using Guid(d8732902c9f48d14ca1023bd189d0b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf592de7ca7731b1121a9a877ae07df') in 0.024675 seconds
-  Import took 0.030942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Art/Textures/Grass.png
-  artifactKey: Guid(9489cbe966a2799439fc7daf9893d150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Art/Textures/Grass.png using Guid(9489cbe966a2799439fc7daf9893d150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffed15e5cbe07980faf147121faafa9b') in 0.033505 seconds
-  Import took 0.039184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Art/Textures/Texture.png
-  artifactKey: Guid(9be368a579962854abcf3f9624d06d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Art/Textures/Texture.png using Guid(9be368a579962854abcf3f9624d06d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45dd20393a8e3f3b8006d8e1d24202b') in 0.017166 seconds
-  Import took 0.022972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005123 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Art/Textures/Texture.png
-  artifactKey: Guid(9be368a579962854abcf3f9624d06d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Art/Textures/Texture.png using Guid(9be368a579962854abcf3f9624d06d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45dd20393a8e3f3b8006d8e1d24202b') in 0.008874 seconds
-  Import took 0.014624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.551386 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Base.prefab
-  artifactKey: Guid(bef79636abe053d4d9a4757b4466bfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Base.prefab using Guid(bef79636abe053d4d9a4757b4466bfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76936d6121ad125960454442aadd9e5a') in 0.025850 seconds
-  Import took 0.031934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Ground.prefab
-  artifactKey: Guid(e3e0e20c8d3c49843b9f69d078adbdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Ground.prefab using Guid(e3e0e20c8d3c49843b9f69d078adbdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054a7b8a6ce75cdfd0b972d6d4338904') in 0.093737 seconds
-  Import took 0.100112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Road_sign1.prefab
-  artifactKey: Guid(41093631723a72d42bccc0b698461fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Road_sign1.prefab using Guid(41093631723a72d42bccc0b698461fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d50d723195a54b25f3f374f84d7a388') in 0.017146 seconds
-  Import took 0.022595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Water.prefab
-  artifactKey: Guid(bc131e0c7707c8e4d8099dd0b1451179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Water.prefab using Guid(bc131e0c7707c8e4d8099dd0b1451179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ff622d60c878b371c0d55ec74eb37a') in 0.022140 seconds
-  Import took 0.028994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Electric_pole.prefab
-  artifactKey: Guid(956a8f08c3fac1547baafd057d820a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Electric_pole.prefab using Guid(956a8f08c3fac1547baafd057d820a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c730015696939aa712e1e432411e65d9') in 0.017854 seconds
-  Import took 0.023136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Grass_3.prefab
-  artifactKey: Guid(c4bc74b0a7f30164493f6b2b1cd5969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Grass_3.prefab using Guid(c4bc74b0a7f30164493f6b2b1cd5969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3851d3e93dc966566f10f2cc88410e44') in 0.159156 seconds
-  Import took 0.164992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Tree_1.prefab
-  artifactKey: Guid(2f88bb42a1ce0c043834b471617d3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Tree_1.prefab using Guid(2f88bb42a1ce0c043834b471617d3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659cc5442f59bfb9429b6a9794ae09e7') in 0.019991 seconds
-  Import took 0.025530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/House_2.prefab
-  artifactKey: Guid(3d7ed3a31ab8f79448604ec3148d300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/House_2.prefab using Guid(3d7ed3a31ab8f79448604ec3148d300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fa5b3a0021b8b37fef6fa31114afee') in 0.017474 seconds
-  Import took 0.023999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Tree_4.prefab
-  artifactKey: Guid(122cf8bf4f49e3842ae0fce025b4bd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Tree_4.prefab using Guid(122cf8bf4f49e3842ae0fce025b4bd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ac27f5aed4587b07ad48beb8430ba0') in 0.017037 seconds
-  Import took 0.023244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Rock_2.prefab
-  artifactKey: Guid(7bf62b0bc39558d48807aa176c485b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Rock_2.prefab using Guid(7bf62b0bc39558d48807aa176c485b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6824efe47db400976738823d74f1cea') in 0.016449 seconds
-  Import took 0.021611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Electric_cable.prefab
-  artifactKey: Guid(0dbda4ea70ba28549b5c445249486cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Electric_cable.prefab using Guid(0dbda4ea70ba28549b5c445249486cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a61bb466f0870556ab6f538f27091df') in 0.015904 seconds
-  Import took 0.021090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Tree_2.prefab
-  artifactKey: Guid(f371874061e9c874481abcdb897e9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Tree_2.prefab using Guid(f371874061e9c874481abcdb897e9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78371fecdd814808b38c6dde3a79131d') in 0.017920 seconds
-  Import took 0.023111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Grass_1.prefab
-  artifactKey: Guid(f7155cb81768ed845bbaa6821ede4fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Grass_1.prefab using Guid(f7155cb81768ed845bbaa6821ede4fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c08755a7527b0b2f1a51456504b5158') in 0.034969 seconds
-  Import took 0.040817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Church_1.prefab
-  artifactKey: Guid(fec05b3694b2ffb4da8dc2a3fbcd8256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Church_1.prefab using Guid(fec05b3694b2ffb4da8dc2a3fbcd8256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6fd3695fed39370005ff90236107a6') in 0.017383 seconds
-  Import took 0.023788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Grass_2.prefab
-  artifactKey: Guid(161c85f0af49e7b4dad7dd340e1e39fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Grass_2.prefab using Guid(161c85f0af49e7b4dad7dd340e1e39fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3394f7b546a4f973e2587863ef028cf') in 0.036110 seconds
-  Import took 0.042235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Rock_3.prefab
-  artifactKey: Guid(ffc545d554bc78c4f9ee506149e450b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Rock_3.prefab using Guid(ffc545d554bc78c4f9ee506149e450b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a798d8c9fd27a8a9af840bad55bf41') in 0.016771 seconds
-  Import took 0.022106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Rock_4.prefab
-  artifactKey: Guid(750b7a6fa26e20c49b059fef9d453c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Rock_4.prefab using Guid(750b7a6fa26e20c49b059fef9d453c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766cd596c54d6f4d03205713d5df88d7') in 0.016862 seconds
-  Import took 0.022531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/House_1.prefab
-  artifactKey: Guid(2030e0fa2aadfed4b9f99149cab54c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/House_1.prefab using Guid(2030e0fa2aadfed4b9f99149cab54c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953cc0788264197940f3dafcf1d84b33') in 0.016266 seconds
-  Import took 0.022488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Caravan_1.prefab
-  artifactKey: Guid(8e9164e00a4d5db48a745b14934ecaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Caravan_1.prefab using Guid(8e9164e00a4d5db48a745b14934ecaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6220d38a27c8bc76ccbe3dd2f7f7fc0a') in 0.017126 seconds
-  Import took 0.023342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/House_3.prefab
-  artifactKey: Guid(0ec5d1d949191f44b8281801bfcfe011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/House_3.prefab using Guid(0ec5d1d949191f44b8281801bfcfe011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901c0b05f491ba2988781033195da64b') in 0.016169 seconds
-  Import took 0.022474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Rock_1.prefab
-  artifactKey: Guid(3a0a30c4014e71342ae79edf0a0e737a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Rock_1.prefab using Guid(3a0a30c4014e71342ae79edf0a0e737a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2887e445d3b2ad8a2f6986d77799f1d0') in 0.015715 seconds
-  Import took 0.021672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Tree_3.prefab
-  artifactKey: Guid(0e40fc051ed65994baf499c5b9715ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Tree_3.prefab using Guid(0e40fc051ed65994baf499c5b9715ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0eb147734bf37967603480416a2ec0b') in 0.018244 seconds
-  Import took 0.024280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006066 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Tree_3.prefab
-  artifactKey: Guid(0e40fc051ed65994baf499c5b9715ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Tree_3.prefab using Guid(0e40fc051ed65994baf499c5b9715ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0eb147734bf37967603480416a2ec0b') in 0.007275 seconds
-  Import took 0.012256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.892349 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Wc.prefab
-  artifactKey: Guid(943133367053d9145a4401c02bf5f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Wc.prefab using Guid(943133367053d9145a4401c02bf5f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782fda6a874c56ffaaf1430bed89bbe3') in 0.023023 seconds
-  Import took 0.029731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Well1.prefab
-  artifactKey: Guid(5e9761041a6b5b647a3b3b0d79c4ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Well1.prefab using Guid(5e9761041a6b5b647a3b3b0d79c4ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbddafdbca4ba8ee0434e7541eabe0f') in 0.014600 seconds
-  Import took 0.020263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Wooden_barrel.prefab
-  artifactKey: Guid(c230cf9ffea1ef74b9eca483ad69d225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalResources/Low_Poly_Mini_Village/Prefabs/Wooden_barrel.prefab using Guid(c230cf9ffea1ef74b9eca483ad69d225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782b586afa0c07a85a48ea31ea2ec3f4') in 0.015247 seconds
-  Import took 0.021042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.847104 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f0605dda2b8fe759d9ac36dc06c588') in 0.008197 seconds
-  Import took 0.015406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000752 seconds.
-  path: Assets/Prefabs/Branch.prefab
-  artifactKey: Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Branch.prefab using Guid(45ca54c7c36cda04181d6674f238c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f0605dda2b8fe759d9ac36dc06c588') in 0.003524 seconds
-  Import took 0.009004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.058783 seconds.
-  path: Assets/Scenes/GameScene
-  artifactKey: Guid(4aefbc4e1c670c044929cf8e9de9f419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene using Guid(4aefbc4e1c670c044929cf8e9de9f419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1d37133c1547c61f7a37ac3319e2cb') in 0.005962 seconds
-  Import took 0.011962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039038 seconds.
-  path: Assets/Scenes/GameScene/LightingData.asset
-  artifactKey: Guid(a2c75a9735ed3d94f98d57c9709dcc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene/LightingData.asset using Guid(a2c75a9735ed3d94f98d57c9709dcc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5304de9c0bd7967033af76b2f3b125b') in 0.006058 seconds
-  Import took 0.011150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Scenes/GameScene/ReflectionProbe-0.exr
-  artifactKey: Guid(8d08a4072c1b38e489362af6d9bddf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene/ReflectionProbe-0.exr using Guid(8d08a4072c1b38e489362af6d9bddf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b39b235b6f61e826516005dd8ffbbf4') in 0.025192 seconds
-  Import took 0.031592 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006690 seconds.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-GPGSUpgrader start
-
-GPGSUpgrader done
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.167 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.6 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 4159.
-Total: 4.461700 ms (FindLiveObjects: 0.778600 ms CreateObjectMapping: 0.136200 ms MarkObjects: 3.500800 ms  DeleteObjects: 0.044900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 40.603732 seconds.
-  path: Assets/SmokeTest/MyGUISkin.guiskin
-  artifactKey: Guid(2319c86c507e94d9aa50e3503b392986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SmokeTest/MyGUISkin.guiskin using Guid(2319c86c507e94d9aa50e3503b392986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba5e0c57186345a89c19b9edc733444') in 0.025986 seconds
-  Import took 0.032564 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006808 seconds.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Julaxe\Documents\dev\MiniGames\MiniGame-Chicken-Chase\Chicken-chase\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
-  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <3081d2bcbc4348779c37880b87cdb6a1>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
-
-GPGSUpgrader start
-
-GPGSUpgrader done
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.6 MB.
-System memory in use after: 149.9 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 4162.
-Total: 3.334500 ms (FindLiveObjects: 0.621700 ms CreateObjectMapping: 0.091800 ms MarkObjects: 2.575400 ms  DeleteObjects: 0.044500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
