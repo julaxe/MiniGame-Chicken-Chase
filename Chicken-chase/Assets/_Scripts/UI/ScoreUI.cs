@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using _Scripts.Managers;
+using _Scripts.Systems;
 using UnityEngine;
 using TMPro;
 
@@ -16,7 +18,7 @@ public class ScoreUI : MonoBehaviour
     {
         if(tmpPro)
         {
-            tmpPro.text = ScoreSystem.Instance.GetScore().ToString();
+            tmpPro.text = ScoreManager.Instance.GetScore().ToString();
         }
     }
 }

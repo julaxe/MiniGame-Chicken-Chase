@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu Scene.unity
+    path: Assets/Scenes/Menu_Scene.unity
     guid: 9b94e7c873d457040b4141b584f8d306
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+    path: Assets/Scenes/Game_Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Restart Scene.unity
+    path: Assets/Scenes/Score_Scene.unity
     guid: c60ab198143f22a4399c474798ec1a85
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 38cb38a8965209445bec6828d108b39a,

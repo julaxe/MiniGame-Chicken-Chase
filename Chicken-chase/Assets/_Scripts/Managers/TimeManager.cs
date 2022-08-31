@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,11 @@ public class TimeManager : MonoBehaviour
     private float fMaxTimeScale = 3f;
 
     // Update is called once per frame
+    private void Start()
+    {
+        Time.timeScale = 1.0f;
+    }
+
     void Update()
     {
         if(Time.timeScale < fMaxTimeScale)

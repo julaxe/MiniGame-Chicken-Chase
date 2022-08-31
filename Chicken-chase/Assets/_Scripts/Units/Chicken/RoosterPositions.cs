@@ -1,87 +1,84 @@
-using System.Collections;
 using System.Collections.Generic;
+using _Scripts.Managers;
+using _Scripts.Systems;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class RoosterPositions : MonoBehaviour
+namespace _Scripts.Units.Chicken
 {
-    public List<Vector3> positions;
-    public List<Vector3> rotations;
-
-    private int currentPos = 0;
-
-    private Animator animator;
-    private CapsuleCollider capsuleCollider;
-
-    private bool gotHit;
-    private double gotHitTimer;
-
-    void Start()
+    public class RoosterPositions : MonoBehaviour
     {
-        animator = GetComponent<Animator>();
-        capsuleCollider = GetComponent<CapsuleCollider>();
+        public List<Vector3> positions;
+        public List<Vector3> rotations;
 
+        private int currentPos = 0;
 
-        //initial position
-        ChangePosition(currentPos);
+        private Animator animator;
+        private CapsuleCollider capsuleCollider;
 
-        //set Score 0;
-        ScoreSystem.Instance.ResetScore();
-    }
+        private bool gotHit;
+        private double gotHitTimer;
 
-    private void Update()
-    {
-        if(gotHit)
+        void Start()
         {
-            if(gotHitTimer > 0.5) //cooldown to go back to normal
-            {
-                SetGotHit(false);
-            }
-            gotHitTimer += Time.deltaTime;
-        }    
-    }
+            animator = GetComponent<Animator>();
+            capsuleCollider = GetComponent<CapsuleCollider>();
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Hit")
-        {
-            currentPos++;
-            if(currentPos <= positions.Count - 1) //not gameOver
-            {
-                ChangePosition(currentPos);
-                SoundManager.Instance.PlaySFX("getHit");
 
-                //can't collide for a few seconds and get hit animation
-                SetGotHit(true);
+            //initial position
+            ChangePosition(currentPos);
 
-                //disable score collision box for that obstacle and collision in general.
-                other.gameObject.transform.Find("CollisionBox").GetComponent<BoxCollider>().enabled = false;
-                other.GetComponent<BoxCollider>().enabled = false;
-            }
-            else
-            {
-                //game Over
-                SceneManager.LoadScene(2);//restart scene.
-            }
-
+            //set Score 0;
+            ScoreManager.Instance.ResetScore();
         }
-        if (other.tag == "Score")
+
+        private void Update()
         {
-            ScoreSystem.Instance.Score();
+            if(gotHit)
+            {
+                if(gotHitTimer > 0.5) //cooldown to go back to normal
+                {
+                    SetGotHit(false);
+                }
+                gotHitTimer += Time.deltaTime;
+            }    
         }
-    }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("Hit"))
+            {
+                currentPos++;
+                if(currentPos <= positions.Count - 1) //not gameOver
+                {
+                    ChangePosition(currentPos);
+                    SoundManager.Instance.PlaySFX("getHit");
+
+                    //can't collide for a few seconds and get hit animation
+                    SetGotHit(true);
+
+                    //disable score collision box for that obstacle and collision in general.
+                    other.gameObject.transform.Find("CollisionBox").GetComponent<BoxCollider>().enabled = false;
+                    other.GetComponent<BoxCollider>().enabled = false;
+                }
+                else
+                {
+                    GameManager.Instance.ChangeState(GameState.Score);
+                }
+            }
+        }
  
-    private void ChangePosition(int index)
-    {
-        transform.position = positions[index];
-        transform.eulerAngles = rotations[index];
-    }
+        private void ChangePosition(int index)
+        {
+            transform.position = positions[index];
+            transform.eulerAngles = rotations[index];
+        }
 
-    private void SetGotHit(bool status)
-    {
-        animator.SetBool("gotHit", status);
-        gotHit = status;
-        gotHitTimer = 0;
-        capsuleCollider.isTrigger = !status;
+        private void SetGotHit(bool status)
+        {
+            animator.SetBool("gotHit", status);
+            gotHit = status;
+            gotHitTimer = 0;
+            capsuleCollider.isTrigger = !status;
+        }
     }
 }
