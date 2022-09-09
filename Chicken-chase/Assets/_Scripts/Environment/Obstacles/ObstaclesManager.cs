@@ -10,6 +10,8 @@ public class ObstaclesManager : MonoBehaviour
     [SerializeField]
     private GameObject prefabFench;
 
+    [SerializeField] private GameObject twistedPlatformReference;
+
     private List<GameObject> listObstacles;
     private double timer;
     private int cd;
@@ -36,7 +38,7 @@ public class ObstaclesManager : MonoBehaviour
 
     void SpawnObstacle()
     {
-        int randomObstacle = Random.Range(1, 3);
+        int randomObstacle = Random.Range(0, 2);
         GameObject temp;
         if (randomObstacle == 1)
         {
@@ -46,6 +48,8 @@ public class ObstaclesManager : MonoBehaviour
         {
             temp = Instantiate(prefabBranch);
         }
+
+        temp.GetComponent<ObstacleBehaviour>().twistedPlatform = twistedPlatformReference;
         listObstacles.Add(temp);
         CalculateNextObstacle();
         CheckBoundaries();

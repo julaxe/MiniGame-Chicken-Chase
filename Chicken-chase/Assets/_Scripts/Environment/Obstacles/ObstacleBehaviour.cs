@@ -1,10 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ObstacleBehaviour : MonoBehaviour
 {
-    private GameObject referenceObj;
+    [NonSerialized] public GameObject twistedPlatform;
 
     [SerializeField]
     private float Radious;
@@ -26,7 +27,6 @@ public class ObstacleBehaviour : MonoBehaviour
 
     void Start()
     {
-        referenceObj = GameObject.Find("twistedPlatform2");
         Reset();
         timer = 0;
     }
@@ -56,8 +56,8 @@ public class ObstacleBehaviour : MonoBehaviour
 
     private void CalculatePosition()
     {
-        float x = referenceObj.transform.position.x + Radious * Mathf.Sin(Mathf.Deg2Rad * angle);
-        float z = referenceObj.transform.position.z + Radious * Mathf.Cos(Mathf.Deg2Rad * angle);
+        float x = twistedPlatform.transform.position.x + Radious * Mathf.Sin(Mathf.Deg2Rad * angle);
+        float z = twistedPlatform.transform.position.z + Radious * Mathf.Cos(Mathf.Deg2Rad * angle);
         transform.position = new Vector3(x, Yposition, z);
     }
     private void CalculateLocalAngle()
